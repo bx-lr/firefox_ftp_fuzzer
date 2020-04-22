@@ -1,0 +1,1081 @@
+0:000> x xul!*arena*
+57d64efc          xul!mozilla::AutoStackArena::gStackArena = 0x00000000
+57d69408          xul!gXPTIStructArena = 0x0209c160
+579f43b0          xul!kPrefTaskbarEnabled = char [30] "browser.taskbar.lists.enabled"
+57d64e6c          xul!gPrefNameArena = struct PLArenaPool
+5766e2f5          xul!nsTHashtable<nsPresArena::FreeList>::EnumerateEntries (<function> *, void *)
+5720773e          xul!nsTHashtable<nsPresArena::FreeList>::s_SizeOfStub (struct PLDHashEntryHdr *, <function> *, void *)
+569c22f0          xul!nsPresArena::Allocate (unsigned int, unsigned int)
+57090326          xul!XPT_DestroyArena (struct XPTArena *)
+572649f5          xul!mozilla::gl::VBOArena::VBOArena (void)
+572a92c3          xul!mozilla::gl::VBOArena::Reset (void)
+5709045c          xul!XPT_NewArena (unsigned int, unsigned int, char *)
+5766ed70          xul!nsTHashtable<nsPresArena::FreeList>::SizeOfExcludingThis (<function> *, <function> *, void *)
+57213827          xul!nsTHashtable<nsPresArena::FreeList>::s_HashKey (struct PLDHashTable *, void *)
+5709034b          xul!XPT_ArenaMalloc (struct XPTArena *, unsigned int)
+56928708          xul!nsPresArena::Free (unsigned int, void *)
+5727fb30          xul!nsArenaMemoryStats::addToTabSizes (class nsTabSizes *)
+56a9ee83          xul!PSArenaFreeCB (unsigned int, void *, void *)
+56adb897          xul!mozilla::StackArena::~StackArena (void)
+57090434          xul!XPT_SizeOfArena (struct XPTArena *, <function> *)
+56adc0af          xul!mozilla::StackArena::StackArena (void)
+5687bb60          xul!mozilla::AutoStackArena::AutoStackArena (void)
+56ab572b          xul!ArenaStrndup (char *, unsigned int, struct PLArenaPool *)
+572649dd          xul!mozilla::gl::VBOArena::~VBOArena (void)
+57297829          xul!mozilla::AutoStackArena::Allocate (unsigned int)
+56db86b8          xul!PLArenaPoolCleanerFalseParam::~PLArenaPoolCleanerFalseParam (void)
+568c7953          xul!nsTHashtable<nsPresArena::FreeList>::GetEntry (unsigned int)
+56a19cc0          xul!nsTHashtable<nsPresArena::FreeList>::s_ClearEntry (struct PLDHashTable *, struct PLDHashEntryHdr *)
+56a04740          xul!nsTHashtable<nsPresArena::FreeList>::s_CopyEntry (struct PLDHashTable *, struct PLDHashEntryHdr *, struct PLDHashEntryHdr *)
+56aff8d6          xul!mozilla::StackArena::Allocate (unsigned int)
+56adb83f          xul!mozilla::AutoStackArena::~AutoStackArena (void)
+56953190          xul!nsTHashtable<nsPresArena::FreeList>::s_InitEntry (struct PLDHashTable *, struct PLDHashEntryHdr *, void *)
+56db86b8          xul!mozilla::psm::`anonymous namespace'::PLArenaPoolCleanerFalseParam::~PLArenaPoolCleanerFalseParam (void)
+5729cb82          xul!nsPresArena::SizeOfFreeListEntryExcludingThis (class nsPresArena::FreeList *, <function> *, void *)
+56adb872          xul!mozilla::StackArena::Pop (void)
+56a17110          xul!mozilla::StackArena::Push (void)
+570903fd          xul!XPT_ArenaStrDup (struct XPTArena *, char *)
+572a92d4          xul!mozilla::gl::VBOArena::Allocate (class mozilla::gl::GLContext *)
+572111e6          xul!nsTHashtable<nsPresArena::FreeList>::s_EnumStub (struct PLDHashTable *, struct PLDHashEntryHdr *, unsigned int, void *)
+569b7ad0          xul!nsTHashtable<nsPresArena::FreeList>::s_MatchEntry (struct PLDHashTable *, struct PLDHashEntryHdr *, void *)
+5721574a          xul!nsPresArena::FreeListEnumerator (class nsPresArena::FreeList *, void *)
+572616e3          xul!mozilla::gl::VBOArena::Flush (class mozilla::gl::GLContext *)
+568e0cbf          xul!PSArenaAllocCB (unsigned int, void *)
+56a6452b          xul!nsGfxScrollFrameInner::SetScrollbarEnabled (class nsIContent *, int)
+5766eda9          xul!nsPresArena::AddSizeOfExcludingThis (<function> *, struct nsArenaMemoryStats *)
+570944b0          xul!PORT_ArenaStrdup (<no parameter info>)
+57792c14          xul!_imp__CERT_CompareName = <no type information>
+5709486a          xul!PORT_ArenaZAlloc_Util (<no parameter info>)
+57793044          xul!_imp__PORT_ArenaMark_Util = <no type information>
+57093fbe          xul!PORT_NewArena (<no parameter info>)
+5709487c          xul!PORT_ArenaUnmark_Util (<no parameter info>)
+57cd9a74          xul!`nsTHashtable<nsPresArena::FreeList>::Init'::`2'::sOps = <no type information>
+570943cc          xul!CERT_CompareName (<no parameter info>)
+57094870          xul!PORT_NewArena_Util (<no parameter info>)
+5709488e          xul!PORT_ArenaMark_Util (<no parameter info>)
+5779279c          xul!_imp__PL_InitArenaPool = <no type information>
+57792ce8          xul!_imp__PORT_ArenaStrdup = <no type information>
+5779303c          xul!_imp__PORT_ArenaRelease_Util = <no type information>
+57792940          xul!_imp__PORT_FreeArena = <no type information>
+577927a0          xul!_imp__PL_FreeArenaPool = <no type information>
+57793064          xul!_imp__PORT_ArenaAlloc_Util = <no type information>
+577927c4          xul!_imp__PL_SizeOfArenaPoolExcludingPool = <no type information>
+57793030          xul!_imp__PORT_NewArena_Util = <no type information>
+57094882          xul!PORT_ArenaRelease_Util (<no parameter info>)
+57792944          xul!_imp__PORT_ArenaZAlloc = <no type information>
+57793028          xul!_imp__PORT_FreeArena_Util = <no type information>
+570944c8          xul!PORT_ArenaAlloc (<no parameter info>)
+57093fb2          xul!PORT_FreeArena (<no parameter info>)
+577927a4          xul!_imp__PL_ArenaAllocate = <no type information>
+57093fb8          xul!PORT_ArenaZAlloc (<no parameter info>)
+577927a8          xul!_imp__PL_FinishArenaPool = <no type information>
+57793038          xul!_imp__PORT_ArenaUnmark_Util = <no type information>
+57094864          xul!PORT_FreeArena_Util (<no parameter info>)
+570948be          xul!PORT_ArenaAlloc_Util (<no parameter info>)
+57792d24          xul!_imp__PORT_ArenaAlloc = <no type information>
+57792948          xul!_imp__PORT_NewArena = <no type information>
+5779302c          xul!_imp__PORT_ArenaZAlloc_Util = <no type information>
+0:000> dt arenas
+mozglue!arenas
+0x00620000 
+ -> 0x00620040 
+   +0x000 lock             : _RTL_CRITICAL_SECTION
+   +0x018 stats            : arena_stats_s
+   +0x080 chunks_dirty     : arena_chunk_tree_t
+   +0x0a0 spare            : 0x4b000000 arena_chunk_s
+   +0x0a4 ndirty           : 0x345
+   +0x0a8 runs_avail       : arena_avail_tree_t
+   +0x0b8 bins             : [1] arena_bin_s
+0:000> dt arena_bin_s
+mozglue!arena_bin_s
+   +0x000 runcur           : Ptr32 arena_run_s
+   +0x004 runs             : arena_run_tree_t
+   +0x014 reg_size         : Uint4B
+   +0x018 run_size         : Uint4B
+   +0x01c nregs            : Uint4B
+   +0x020 regs_mask_nelms  : Uint4B
+   +0x024 reg0_offset      : Uint4B
+   +0x028 stats            : malloc_bin_stats_s
+0:000> dt arenas 0x00620000 
+mozglue!arenas
+0x00620040 
+ -> 0x000f7b78 
+   +0x000 lock             : _RTL_CRITICAL_SECTION
+   +0x018 stats            : arena_stats_s
+   +0x080 chunks_dirty     : arena_chunk_tree_t
+   +0x0a0 spare            : (null) 
+   +0x0a4 ndirty           : 0x517348
+   +0x0a8 runs_avail       : arena_avail_tree_t
+   +0x0b8 bins             : [1] arena_bin_s
+0:000> dt mozglue!arenas 0x00620000 
+0x00620040 
+ -> 0x000f7b78 
+   +0x000 lock             : _RTL_CRITICAL_SECTION
+   +0x018 stats            : arena_stats_s
+   +0x080 chunks_dirty     : arena_chunk_tree_t
+   +0x0a0 spare            : (null) 
+   +0x0a4 ndirty           : 0x517348
+   +0x0a8 runs_avail       : arena_avail_tree_t
+   +0x0b8 bins             : [1] arena_bin_s
+0:000> dt mozglue!arenas 0x00620040 
+0x000f7b78 
+ -> (null) 
+0:000> !address 0x00620000 
+
+                                     
+Mapping file section regions...
+Mapping module regions...
+Mapping PEB regions...
+Mapping TEB and stack regions...
+Mapping heap regions...
+Mapping page heap regions...
+Mapping other regions...
+Mapping stack trace database regions...
+Mapping activation context regions...
+
+
+Usage:                  <unknown>
+Base Address:           00620000
+End Address:            00627000
+Region Size:            00007000
+State:                  00001000	MEM_COMMIT
+Protect:                00000004	PAGE_READWRITE
+Type:                   00020000	MEM_PRIVATE
+Allocation Base:        00620000
+Allocation Protect:     00000004	PAGE_READWRITE
+
+
+0:000> dt tcache_t
+Symbol tcache_t not found.
+0:000> dt ntbins
+mozglue!ntbins
+3
+0:000> x mozglue*
+0:000> x mozglue!*
+72d390f0          mozglue!_imp___Nan = union _Dconst
+72d41a2c          mozglue!__sse2_available = 0n1
+72d41658          mozglue!base_past_addr = 0x00720000
+72d416b0          mozglue!malloc_initialized = 0n1
+72d39224          mozglue!sse4a_enabled$initializer$ = 0x72d3861a
+72d41330          mozglue!__security_cookie_complement = 0xc9b6055
+72d39d80          mozglue!double_conversion::PowersOfTenCache::kMaxDecimalExponent = 0n340
+72d416f0          mozglue!__proc_attached = 0n1
+72d41390          mozglue!stub_LdrLoadDll = 0x002a0004
+72d4165c          mozglue!next_arena = 0
+72d412e8          mozglue!opt_dirty_max = 0x400
+72d39414          mozglue!kBlockedDllsParameter = char [16] "BlockedDllList="
+72d3e174          mozglue!__rtc_taa = <function> *[1]
+72d3bf78          mozglue!configuration_table = struct config_s [10]
+72d416b8          mozglue!opt_print_stats = 0n0
+72d395c0          mozglue!ntbins = 3
+72d395ac          mozglue!quantum = 0x10
+72d3e16c          mozglue!__rtc_iaa = <function> *[1]
+72d3d5c4          mozglue!bl_order = unsigned char [19] "???"
+72d39208          mozglue!__xc_a = <function> *[]
+72d39208          mozglue!__xc_a = <function> *[1]
+72d3e038          mozglue!_pDefaultRawDllMain = 0x00000000
+72d41370          mozglue!sLock = struct _RTL_CRITICAL_SECTION
+72d395d4          mozglue!chunk_npages = 0x100
+72d415c0          mozglue!mozilla::sse_private::sse_enabled = true
+72d395b4          mozglue!small_min = 9
+72d39220          mozglue!ssse3_enabled$initializer$ = 0x72d38603
+72d416ac          mozglue!huge_allocated = 0x59f8000
+72d39db0          mozglue!kSmallPowersOfTen = unsigned int [11]
+72d41a30          mozglue!__dyn_tls_init_callback = 0x00000000
+72d39240          mozglue!__xi_z = <function> *[]
+72d39240          mozglue!__xi_z = <function> *[1]
+72d41694          mozglue!huge_mtx = struct _RTL_CRITICAL_SECTION
+72d416c0          mozglue!gMozillaPoisonSize = 0
+72d41364          mozglue!__native_vcclrit_reason = 0xffffffff
+72d41660          mozglue!arenas = 0x00620000
+72d3d550          mozglue!extra_lbits = int [29]
+72d3df10          mozglue!base_dist = int [30]
+72d395d0          mozglue!chunksize_mask = 0xfffff
+72d39d78          mozglue!double_conversion::PowersOfTenCache::kDecimalExponentDistance = 0n8
+72d39f30          mozglue!crc_table = unsigned int [8][256]
+72d41750          mozglue!GS_ContextRecord = struct _CONTEXT
+72d39238          mozglue!pcinit = 0x72d37d12
+72d41748          mozglue!DebuggerWasPresent = 0n0
+72d3de98          mozglue!base_length = int [29]
+72d39218          mozglue!sse2_enabled$initializer$ = 0x72d385d8
+72d395b0          mozglue!quantum_mask = 0xf
+72d39214          mozglue!sse_enabled$initializer$ = 0x72d385c1
+72d3920c          mozglue!NtDllIntercept$initializer$ = 0x72d3859e
+72d3d5d8          mozglue!extra_dbits = int [30]
+72d395c8          mozglue!nsbins = 2
+72d39d70          mozglue!kD_1_LOG2_10 = 0.30102999566398114
+72d415c4          mozglue!mozilla::sse_private::sse4_2_enabled = true
+72d4136c          mozglue!sBlocklistInitFailed = false
+72d41a28          mozglue!__native_startup_lock = 0x00000000
+72d41670          mozglue!base_next_addr = 0x00626100
+72d39424          mozglue!kBlocklistInitFailedParameter = char [23] "BlocklistInitFailed=1."
+72d3921c          mozglue!sse3_enabled$initializer$ = 0x72d385ef
+72d415d4          mozglue!base_mtx = struct _RTL_CRITICAL_SECTION
+72d415ec          mozglue!base_pages = 0x00620000
+72d41360          mozglue!__native_dllmain_reason = 0xffffffff
+72d3e008          mozglue!MOZ_Z_z_errmsg = char *[10]
+72d415cc          mozglue!base_next_decommitted = 0x00627000
+72d415c6          mozglue!mozilla::sse_private::sse4_1_enabled = true
+72d395c4          mozglue!nqbins = 0x20
+72d41318          mozglue!static_bl_desc = struct static_tree_desc_s
+72d416ec          mozglue!$S1 = 0
+72d412f0          mozglue!static_l_desc = struct static_tree_desc_s
+72d4163c          mozglue!arenas_lock = struct _RTL_CRITICAL_SECTION
+72d3d6a0          mozglue!static_ltree = struct ct_data_s [288]
+72d415c3          mozglue!mozilla::sse_private::sse4a_enabled = false
+72d3bf30          mozglue!MOZ_Z_deflate_copyright = char [68] " deflate 1.2.8 Copyright 1995-2013 Jean-loup Gailly and Mark Adler "
+72d41a34          mozglue!__onexitend = 0x4871c930
+72d39194          mozglue!_imp___onexit = 0x6cb6aa3a
+72d4138c          mozglue!ReentrancySentinel::sThreadMap = 0x00519340
+72d416b4          mozglue!opt_abort = 0n0
+72d3922c          mozglue!sse4_2_enabled$initializer$ = 0x72d38648
+72d3943c          mozglue!kUser32BeforeBlocklistParameter = char [25] "User32BeforeBlocklist=1."
+72d415c5          mozglue!mozilla::sse_private::sse2_enabled = true
+72d39234          mozglue!__xi_a = <function> *[]
+72d39234          mozglue!__xi_a = <function> *[1]
+72d3dd98          mozglue!MOZ_Z__length_code = unsigned char [] ""
+72d3dd98          mozglue!MOZ_Z__length_code = unsigned char [256] ""
+72d39d7c          mozglue!double_conversion::PowersOfTenCache::kMinDecimalExponent = 0n-348
+72d3e03c          mozglue!GS_ExceptionPointers = struct _EXCEPTION_POINTERS
+72d395cc          mozglue!chunksize = 0x100000
+72d412e4          mozglue!_malloc_options = 0x72d395a7 ""
+72d395a8          mozglue!isthreaded = 0n1
+72d3e038          mozglue!_pRawDllMain = 0x00000000
+72d3e170          mozglue!__rtc_izz = <function> *[1]
+72d416c8          mozglue!gMozillaPoisonBase = 0
+72d415c7          mozglue!mozilla::sse_private::sse3_enabled = true
+72d39230          mozglue!__xc_z = <function> *[]
+72d39230          mozglue!__xc_z = <function> *[1]
+72d39210          mozglue!mmx_enabled$initializer$ = 0x72d385aa
+72d415d0          mozglue!base_mapped = 0x100000
+72d3e178          mozglue!__rtc_tzz = <function> *[1]
+72d3e160          mozglue!__safe_se_handler_table = void *[]
+72d416f8          mozglue!GS_ExceptionRecord = struct _EXCEPTION_RECORD
+72d3e048          mozglue!_load_config_used = struct IMAGE_LOAD_CONFIG_DIRECTORY32_2
+72d395bc          mozglue!bin_maxclass = 0x800
+72d395b8          mozglue!small_max = 0x200
+72d415c8          mozglue!base_nodes = 0x00625fc0
+72d39228          mozglue!sse4_1_enabled$initializer$ = 0x72d38631
+72d415f0          mozglue!mozillaMallocOptionsBuf = char [64] ""
+72d41654          mozglue!narenas = 1
+72d41368          mozglue!sThreadLoadingXPCOMModule = 0
+72d41398          mozglue!NtDllIntercept = class mozilla::WindowsDllInterceptor
+72d416c4          mozglue!gMozillaPoisonValue = 0
+72d3db98          mozglue!MOZ_Z__dist_code = unsigned char [] ""
+72d3db98          mozglue!MOZ_Z__dist_code = unsigned char [512] ""
+72d4136d          mozglue!sUser32BeforeBlocklist = true
+72d39800          mozglue!kCachedPowers = struct double_conversion::CachedPower [87]
+72d39de0          mozglue!exact_powers_of_ten = double [23]
+72d415c2          mozglue!mozilla::sse_private::ssse3_enabled = true
+72d41630          mozglue!huge_nmalloc = 0x76de
+72d41638          mozglue!huge_mapped = 0x7900000
+72d41674          mozglue!huge = struct extent_tree_t
+72d41690          mozglue!chunk_rtree = 0x00620b80
+72d416bc          mozglue!opt_narenas_lshift = 0n0
+72d4132c          mozglue!__security_cookie = 0xf3649faa
+72d41a38          mozglue!__onexitbegin = 0x4871a930
+72d3d420          mozglue!MOZ_Z_inflate_copyright = char [47] " inflate 1.2.8 Copyright 1995-2013 Mark Adler "
+72d3923c          mozglue!pinit = 0x72d382e4
+72d41668          mozglue!huge_ndalloc = 0x76ad
+72d412ec          mozglue!_malloc_message = 0x72d22471
+72d41000          mozglue!sWindowsDllBlocklist = struct DllBlockInfo [28]
+72d41664          mozglue!base_committed = 0x1000
+72d41a1c          mozglue!__type_info_root_node = struct __type_info_node
+72d41a24          mozglue!__native_startup_state = __initialized (0n2)
+72d390f4          mozglue!_imp___Inf = union _Dconst
+72d415c1          mozglue!mozilla::sse_private::mmx_enabled = true
+72d41304          mozglue!static_d_desc = struct static_tree_desc_s
+72d3d650          mozglue!extra_blbits = int [19]
+72d3db20          mozglue!static_dtree = struct ct_data_s [30]
+72d412e0          mozglue!tlsIndex = 3
+72d41388          mozglue!DllBlockSet::gFirst = 0x00000000
+72d312f0          mozglue!MOZ_Z_deflateReset (struct z_stream_s *)
+72d23ce4          mozglue!arena_avail_tree_remove (struct arena_avail_tree_t *, struct arena_chunk_map_s *)
+72d322ed          mozglue!MOZ_Z_gzrewind (struct gzFile_s *)
+72d32334          mozglue!MOZ_Z_gzseek64 (struct gzFile_s *, int64, int)
+72d3227c          mozglue!MOZ_Z_gzopen64 (char *, char *)
+72d270b9          mozglue!mozilla::AddToHash<unsigned int,unsigned int> (unsigned int, unsigned int, unsigned int)
+72d2f55a          mozglue!MOZ_Z_adler32 (unsigned long, unsigned char *, unsigned int)
+72d35be2          mozglue!MOZ_Z_inflateMark (struct z_stream_s *)
+72d2a7b6          mozglue!double_conversion::DoubleToStringConverter::ToShortestIeeeNumber (double, class double_conversion::StringBuilder *, double_conversion::DoubleToStringConverter::DtoaMode)
+72d2e6f2          mozglue!std::basic_string<char,std::char_traits<char>,std::allocator<char> >::_Tidy (bool, unsigned int)
+72d38390          mozglue!_FindPESection (unsigned char *, unsigned long)
+72d2f8d2          mozglue!MOZ_Z_get_crc_table (void)
+72d36e0f          mozglue!detect_data_type (struct internal_state *)
+72d21d09          mozglue!std::_Tree<std::_Tmap_traits<unsigned long,char const *,std::less<unsigned long>,std::allocator<std::pair<unsigned long const ,char const *> >,0> >::_Linsert (struct std::_Tree_nod<std::_Tmap_traits<unsigned long,char const *,std::less<unsigned long>,std::allocator<std::pair<unsigned long const ,char const *> >,0> >::_Node *, bool)
+72d36858          mozglue!send_all_trees (struct internal_state *, int, int, int)
+72d24af6          mozglue!dumb_free_thunk (void *)
+72d23bb4          mozglue!arena_avail_tree_insert (struct arena_avail_tree_t *, struct arena_chunk_map_s *)
+72d2d863          mozglue!WebCore::Decimal::ceiling (void)
+72d2979e          mozglue!double_conversion::Bignum::AssignPowerUInt16 (unsigned short, int)
+72d3859e          mozglue!`anonymous namespace'::`dynamic initializer for 'NtDllIntercept'' (void)
+72d21115          mozglue!mozilla::internal::WindowsDllDetourPatcher::~WindowsDllDetourPatcher (void)
+72d24e26          mozglue!arena_run_dalloc (struct arena_s *, struct arena_run_s *, int)
+72d224fb          mozglue!pages_commit (void *, unsigned int)
+72d22425          mozglue!wrap_strdup (char *)
+72d2becd          mozglue!double_conversion::UInt128::BitAt (int)
+72d3595d          mozglue!syncsearch (unsigned int *, unsigned char *, unsigned int)
+72d32bd9          mozglue!MOZ_Z_gzdirect (struct gzFile_s *)
+72d38648          mozglue!mozilla::sse_private::`dynamic initializer for 'sse4_2_enabled'' (void)
+72d2de80          mozglue!mozToDouble (class std::basic_string<char,std::char_traits<char>,std::allocator<char> > *, bool *)
+72d293ee          mozglue!double_conversion::Bignum::MultiplyByUInt64 (unsigned int64)
+72d329b3          mozglue!gzgetc (void)
+72d36039          mozglue!pqdownheap (struct internal_state *, struct ct_data_s *, int)
+72d25209          mozglue!arena_dalloc (void *, unsigned int)
+72d32556          mozglue!gz_avail (struct gz_state *)
+72d37d60          mozglue!_CRT_INIT (void *, unsigned long, void *)
+72d2b2a7          mozglue!double_conversion::RoundWeed (class double_conversion::Vector<char>, int, unsigned int64, unsigned int64, unsigned int64, unsigned int64, unsigned int64)
+72d24e0d          mozglue!chunk_dealloc (void *, unsigned int)
+72d211ee          mozglue!mozilla::WindowsDllInterceptor::Init (char *, int)
+72d379e0          mozglue!_chkstk (void)
+72d2f4e2          mozglue!WebCore::Decimal::toDouble (void)
+72d36a84          mozglue!compress_block (struct internal_state *, struct ct_data_s *, struct ct_data_s *)
+72d2db8f          mozglue!std::basic_stringbuf<char,std::char_traits<char>,std::allocator<char> >::seekoff (int64, int, int)
+72d224d6          mozglue!pow2_ceil (unsigned int)
+72d381f5          mozglue!__SEH_epilog4 (void)
+72d21313          mozglue!printf_stderr (char *)
+72d2722e          mozglue!shaCompress (unsigned int *, unsigned int *)
+72d359ab          mozglue!MOZ_Z_inflateSync (struct z_stream_s *)
+72d2d2da          mozglue!std::basic_stringbuf<char,std::char_traits<char>,std::allocator<char> >::_Getstate (int)
+72d34459          mozglue!MOZ_Z_inflatePrime (struct z_stream_s *, int, int)
+72d2cfec          mozglue!WebCore::DecimalPrivate::scaleDown (unsigned int64, int)
+72d21ffd          mozglue!`anonymous namespace'::patched_LdrLoadDll (wchar_t *, unsigned long *, struct _UNICODE_STRING *, void **)
+72d25251          mozglue!arena_ralloc_large (void *, unsigned int, unsigned int)
+72d38300          mozglue!_RTC_Initialize (void)
+72d381b0          mozglue!__SEH_prolog4 (void)
+72d344ac          mozglue!updatewindow (struct z_stream_s *, unsigned char *, unsigned int)
+72d2102f          mozglue!mozilla::internal::WindowsDllNopSpacePatcher::~WindowsDllNopSpacePatcher (void)
+72d211d6          mozglue!mozilla::internal::WindowsDllDetourPatcher::FindTrampolineSpace (void)
+72d2453f          mozglue!arena_bin_malloc_easy (struct arena_s *, struct arena_bin_s *, struct arena_run_s *)
+72d2f118          mozglue!mozToString (unsigned int64)
+72d2f0bd          mozglue!mozToString (int64)
+72d2ef0e          mozglue!mozToString (double)
+72d2251b          mozglue!base_node_dealloc (struct extent_node_s *)
+72d33136          mozglue!MOZ_Z_gzprintf (struct gzFile_s *, char *)
+72d2d208          mozglue!WebCore::Decimal::infinity (WebCore::Decimal::Sign)
+72d34442          mozglue!MOZ_Z_inflateInit_ (struct z_stream_s *, char *, int)
+72d298cf          mozglue!double_conversion::Bignum::SubtractTimes (class double_conversion::Bignum *, int)
+72d259f2          mozglue!arena_malloc (struct arena_s *, unsigned int, int)
+72d37327          mozglue!MOZ_Z__tr_flush_bits (struct internal_state *)
+72d32a15          mozglue!MOZ_Z_gzungetc (int, struct gzFile_s *)
+72d37836          mozglue!_EH_prolog3_catch (unsigned long)
+72d25fea          mozglue!je_posix_memalign (void **, unsigned int, unsigned int)
+72d25e92          mozglue!arena_ralloc (void *, unsigned int, unsigned int)
+72d27038          mozglue!mozilla::Compression::LZ4::compressLimitedOutput (char *, unsigned int, char *, unsigned int)
+72d27023          mozglue!mozilla::Compression::LZ4::compress (char *, unsigned int, char *)
+72d36ee4          mozglue!bi_windup (struct internal_state *)
+72d28471          mozglue!double_conversion::Bignum::LessEqual (class double_conversion::Bignum *, class double_conversion::Bignum *)
+72d31e3d          mozglue!MOZ_Z_gztell (struct gzFile_s *)
+72d246ab          mozglue!arena_salloc (void *)
+72d2d01f          mozglue!WebCore::DecimalPrivate::scaleUp (unsigned int64, int)
+72d2f8b8          mozglue!MOZ_Z_compressBound (unsigned long)
+72d22c99          mozglue!pages_unmap (void *, unsigned int)
+72d24c6a          mozglue!base_calloc (unsigned int, unsigned int)
+72d26d76          mozglue!LZ4_compress_limitedOutput (char *, char *, int, int)
+72d2eb26          mozglue!std::basic_ostringstream<char,std::char_traits<char>,std::allocator<char> >::`scalar deleting destructor' (void)
+72d2a8aa          mozglue!double_conversion::DoubleToStringConverter::ToFixed (double, int, class double_conversion::StringBuilder *)
+72d2889b          mozglue!double_conversion::GenerateCountedDigits (int, int *, class double_conversion::Bignum *, class double_conversion::Bignum *, class double_conversion::Vector<char>, int *)
+72d2c23a          mozglue!double_conversion::FastFixedDtoa (double, int, class double_conversion::Vector<char>, int *, int *)
+72d2e75b          mozglue!std::basic_string<char,std::char_traits<char>,std::allocator<char> >::erase (unsigned int, unsigned int)
+72d2c63e          mozglue!double_conversion::DoubleStrtod (class double_conversion::Vector<char const >, int, double *)
+72d210b1          mozglue!mozilla::internal::WindowsDllNopSpacePatcher::WriteHook (unsigned char *, int, void **)
+72d2d33c          mozglue!std::operator<<<char,std::char_traits<char>,__int64> (class std::basic_ostream<char,std::char_traits<char> > *, struct std::_Smanip<__int64> *)
+72d2117d          mozglue!mozilla::internal::WindowsDllDetourPatcher::Init (char *, int)
+72d385aa          mozglue!mozilla::sse_private::`dynamic initializer for 'mmx_enabled'' (void)
+72d2538f          mozglue!malloc_init_hard (void)
+72d269f3          mozglue!`anonymous namespace'::LZ4_compress64k_stack_limitedOutput (char *, char *, int, int)
+72d2951a          mozglue!double_conversion::Bignum::MultiplyByPowerOfTen (int)
+72d2b875          mozglue!double_conversion::Double::AsNormalizedDiyFp (void)
+72d2ff47          mozglue!flush_pending (struct z_stream_s *)
+72d2ba75          mozglue!double_conversion::Grisu3 (double, double_conversion::FastDtoaMode, class double_conversion::Vector<char>, int *, int *)
+72d260f2          mozglue!mozilla::Compression::LZ4::maxCompressedSize (unsigned int)
+72d376a5          mozglue!MOZ_Z_zcalloc (void *, unsigned int, unsigned int)
+72d24722          mozglue!arena_ralloc_large_grow (struct arena_s *, struct arena_chunk_s *, void *, unsigned int, unsigned int)
+72d301ac          mozglue!lm_init (struct internal_state *)
+72d3228e          mozglue!MOZ_Z_gzdopen (int, char *)
+72d26fe7          mozglue!LZ4_decompress_safe (char *, char *, int, int)
+72d286f0          mozglue!double_conversion::Double::Exponent (void)
+72d27007          mozglue!LZ4_decompress_fast (char *, char *, int)
+72d358c1          mozglue!MOZ_Z_inflateSetDictionary (struct z_stream_s *, unsigned char *, unsigned int)
+72d28e08          mozglue!double_conversion::Bignum::Compare (class double_conversion::Bignum *, class double_conversion::Bignum *)
+72d245c3          mozglue!arena_bin_run_size_calc (struct arena_bin_s *, unsigned int)
+72d2152e          mozglue!`anonymous namespace'::getFullPath (wchar_t *, wchar_t *)
+72d2601b          mozglue!je_calloc (unsigned int, unsigned int)
+72d247b4          mozglue!arena_new (struct arena_s *)
+72d2e7d3          mozglue!std::basic_string<char,std::char_traits<char>,std::allocator<char> >::_Copy (unsigned int, unsigned int)
+72d322db          mozglue!MOZ_Z_gzopen_w (wchar_t *, char *)
+72d2c9f3          mozglue!double_conversion::Double::PreviousDouble (void)
+72d29d85          mozglue!double_conversion::Double::IsInfinite (void)
+72d2492e          mozglue!je_malloc_good_size (unsigned int)
+72d37330          mozglue!MOZ_Z__tr_align (struct internal_state *)
+72d28780          mozglue!double_conversion::Single::Significand (void)
+72d21761          mozglue!mozilla::internal::WindowsDllNopSpacePatcher::AddHook (char *, int, void **)
+72d263cf          mozglue!`anonymous namespace'::LZ4_compress_stack_limitedOutput (char *, char *, int, int)
+72d251ca          mozglue!arena_dalloc_large (struct arena_s *, struct arena_chunk_s *, void *)
+72d38631          mozglue!mozilla::sse_private::`dynamic initializer for 'sse4_1_enabled'' (void)
+72d36f3c          mozglue!MOZ_Z__tr_init (struct internal_state *)
+72d25317          mozglue!huge_dalloc (void *)
+72d29fb1          mozglue!double_conversion::Double::Infinity (void)
+72d2e9c8          mozglue!WebCore::Decimal::operator< (class WebCore::Decimal *)
+72d2f480          mozglue!WebCore::Decimal::toString (char *, unsigned int)
+72d2f1bf          mozglue!WebCore::Decimal::toString (void)
+72d2d1a3          mozglue!WebCore::Decimal::operator= (class WebCore::Decimal *)
+72d2ea4b          mozglue!WebCore::Decimal::operator> (class WebCore::Decimal *)
+72d2e058          mozglue!WebCore::Decimal::operator- (class WebCore::Decimal *)
+72d2d1b7          mozglue!WebCore::Decimal::operator- (void)
+72d2d5b8          mozglue!WebCore::Decimal::operator/ (class WebCore::Decimal *)
+72d2d4d3          mozglue!WebCore::Decimal::operator* (class WebCore::Decimal *)
+72d2df46          mozglue!WebCore::Decimal::operator+ (class WebCore::Decimal *)
+72d37be0          mozglue!_aullrem (void)
+72d3227c          mozglue!MOZ_Z_gzopen (char *, char *)
+72d31da4          mozglue!MOZ_Z_gzclose (struct gzFile_s *)
+72d24b42          mozglue!jemalloc_free_dirty_pages (void)
+72d29dc7          mozglue!double_conversion::Double::DiyFpToUint64 (class double_conversion::DiyFp)
+72d32497          mozglue!MOZ_Z_gzseek (struct gzFile_s *, long, int)
+72d2cf38          mozglue!WebCore::DecimalPrivate::UInt128::multiplyHigh (unsigned int64, unsigned int64)
+72d2d070          mozglue!WebCore::Decimal::EncodedData::EncodedData (WebCore::Decimal::Sign, int, unsigned int64)
+72d371ea          mozglue!build_bl_tree (struct internal_state *)
+72d24ccb          mozglue!malloc_rtree_new (unsigned int)
+72d249da          mozglue!jemalloc_stats (struct jemalloc_stats_t *)
+72d243ac          mozglue!arena_chunk_init (struct arena_s *, struct arena_chunk_s *)
+72d30a0c          mozglue!deflate_slow (struct internal_state *, int)
+72d29080          mozglue!double_conversion::Bignum::BigitsShiftLeft (int)
+72d29efc          mozglue!double_conversion::isDigit (int, int)
+72d2e8c1          mozglue!std::basic_ostringstream<char,std::char_traits<char>,std::allocator<char> >::`vbase destructor' (void)
+72d2d3f7          mozglue!std::isfinite (double)
+72d2121e          mozglue!mozilla::IsWindowsVersionOrLater (unsigned int64)
+72d2576f          mozglue!arena_run_alloc (struct arena_s *, struct arena_bin_s *, unsigned int, int, int)
+72d37921          mozglue!atexit (<function> *)
+72d2ad35          mozglue!double_conversion::StringToDoubleConverter::StringToIeee (char *, int, int *, bool)
+72d29c97          mozglue!double_conversion::DiyFp::Multiply (class double_conversion::DiyFp *)
+72d377d8          mozglue!type_info::`vector deleting destructor' (void)
+72d2bd6a          mozglue!double_conversion::UInt128::Shift (int)
+72d37750          mozglue!__SEH_prolog4_GS (void)
+72d2ff8c          mozglue!MOZ_Z_deflateEnd (struct z_stream_s *)
+72d22dbc          mozglue!arena_chunk_tree_dirty_insert (struct arena_chunk_tree_t *, struct arena_chunk_s *)
+72d2496d          mozglue!je_malloc_usable_size (void *)
+72d28932          mozglue!double_conversion::BignumToFixed (int, int *, class double_conversion::Bignum *, class double_conversion::Bignum *, class double_conversion::Vector<char>, int *)
+72d21db7          mozglue!std::_Tree<std::_Tmap_traits<unsigned long,char const *,std::less<unsigned long>,std::allocator<std::pair<unsigned long const ,char const *> >,0> >::_Insert (class std::_Tree_const_iterator<std::_Tree_val<std::_Tmap_traits<unsigned long,char const *,std::less<unsigned long>,std::allocator<std::pair<unsigned long const ,char const *> >,0> > >, struct std::_Tree_nod<std::_Tmap_traits<unsigned long,char const *,std::less<unsigned long>,std::allocator<std::pair<unsigned long const ,char const *> >,0> >::_Node *)
+72d21be0          mozglue!std::_Tree<std::_Tmap_traits<unsigned long,char const *,std::less<unsigned long>,std::allocator<std::pair<unsigned long const ,char const *> >,0> >::_Insert (bool, struct std::_Tree_nod<std::_Tmap_traits<unsigned long,char const *,std::less<unsigned long>,std::allocator<std::pair<unsigned long const ,char const *> >,0> >::_Node *, struct std::_Tree_nod<std::_Tmap_traits<unsigned long,char const *,std::less<unsigned long>,std::allocator<std::pair<unsigned long const ,char const *> >,0> >::_Node *)
+72d2b99a          mozglue!double_conversion::Single::NormalizedBoundaries (class double_conversion::DiyFp *, class double_conversion::DiyFp *)
+72d3786c          mozglue!_EH_epilog3 (void)
+72d22f17          mozglue!arena_chunk_tree_dirty_remove (struct arena_chunk_tree_t *, struct arena_chunk_s *)
+72d25851          mozglue!arena_bin_nonfull_run_get (struct arena_s *, struct arena_bin_s *)
+72d37c60          mozglue!_allrem (void)
+72d226c9          mozglue!extent_tree_ad_remove (struct extent_tree_t *, struct extent_node_s *)
+72d256bd          mozglue!DllMain (struct HINSTANCE__ *, unsigned long, void *)
+72d37798          mozglue!__SEH_epilog4_GS (void)
+72d37ae0          mozglue!_allmul (void)
+72d38326          mozglue!_RTC_Terminate (void)
+72d31ef9          mozglue!MOZ_Z_gzerror (struct gzFile_s *, int *)
+72d29322          mozglue!double_conversion::Bignum::MultiplyByUInt32 (unsigned int)
+72d37a46          mozglue!_ftol2 (void)
+72d2bbbd          mozglue!double_conversion::Grisu3Counted (double, int, class double_conversion::Vector<char>, int *, int *)
+72d28797          mozglue!double_conversion::Single::LowerBoundaryIsCloser (void)
+72d35a74          mozglue!MOZ_Z_inflateSyncPoint (struct z_stream_s *)
+72d25bee          mozglue!huge_ralloc (void *, unsigned int, unsigned int)
+72d37f6a          mozglue!__DllMainCRTStartup (void *, unsigned long, void *)
+72d2257f          mozglue!extent_tree_ad_insert (struct extent_tree_t *, struct extent_node_s *)
+72d33eb1          mozglue!MOZ_Z_inflate_fast (struct z_stream_s *, unsigned int)
+72d2f016          mozglue!std::basic_stringbuf<char,std::char_traits<char>,std::allocator<char> >::str (void)
+72d2da90          mozglue!std::basic_string<char,std::char_traits<char>,std::allocator<char> >::copy (char *, unsigned int, unsigned int)
+72d32c79          mozglue!gz_init (struct gz_state *)
+72d2c1dd          mozglue!double_conversion::TrimZeros (class double_conversion::Vector<char>, int *, int *)
+72d33081          mozglue!MOZ_Z_gzvprintf (struct gzFile_s *, char *, char *)
+72d2141c          mozglue!`anonymous namespace'::DllBlockSet::Write (void *)
+72d360e9          mozglue!gen_bitlen (struct internal_state *, struct tree_desc_s *)
+72d25902          mozglue!arena_malloc_small (struct arena_s *, unsigned int, int)
+72d31dff          mozglue!MOZ_Z_gztell64 (struct gzFile_s *)
+72d2a720          mozglue!double_conversion::DoubleToStringConverter::HandleSpecialValues (double, class double_conversion::StringBuilder *)
+72d31acc          mozglue!MOZ_Z_deflateInit2_ (struct z_stream_s *, int, int, int, int, int, char *, int)
+72d21a5f          mozglue!std::_Tree_val<std::_Tmap_traits<unsigned long,char const *,std::less<unsigned long>,std::allocator<std::pair<unsigned long const ,char const *> >,0> >::_Buynode (void)
+72d32706          mozglue!gz_decomp (struct gz_state *)
+72d22374          mozglue!`anonymous namespace'::has_cpuid_bit (unsigned int, `anonymous-namespace'::CPUIDRegister, unsigned int)
+72d28522          mozglue!double_conversion::InitialScaledStartValuesNegativeExponentPositivePower (unsigned int64, int, int, bool, class double_conversion::Bignum *, class double_conversion::Bignum *, class double_conversion::Bignum *, class double_conversion::Bignum *)
+72d28d31          mozglue!double_conversion::Bignum::AssignBignum (class double_conversion::Bignum *)
+72d22322          mozglue!DllBlocklist_Initialize (void)
+72d2c98b          mozglue!double_conversion::Double::NextDouble (void)
+72d38350          mozglue!_ValidateImageBase (unsigned char *)
+72d33e85          mozglue!MOZ_Z_inflateBackEnd (struct z_stream_s *)
+72d2835d          mozglue!mozilla::SHA1Sum::update (void *, unsigned int)
+72d342ad          mozglue!MOZ_Z_inflateResetKeep (struct z_stream_s *)
+72d385d8          mozglue!mozilla::sse_private::`dynamic initializer for 'sse2_enabled'' (void)
+72d21e9d          mozglue!std::_Cons_val<std::allocator<std::pair<unsigned long const ,char const *> >,std::pair<unsigned long const ,char const *>,std::pair<unsigned long const ,char const *> > (class std::allocator<std::pair<unsigned long const ,char const *> > *, struct std::pair<unsigned long const ,char const *> *, struct std::pair<unsigned long const ,char const *> *)
+72d223dc          mozglue!moz_abort (void)
+72d36f96          mozglue!build_tree (struct internal_state *, struct tree_desc_s *)
+72d325bd          mozglue!gz_look (struct gz_state *)
+72d29f64          mozglue!double_conversion::StringBuilder::AddPadding (char, int)
+72d34576          mozglue!MOZ_Z_inflate (struct z_stream_s *, int)
+72d35860          mozglue!MOZ_Z_inflateGetDictionary (struct z_stream_s *, unsigned char *, unsigned int *)
+72d2508c          mozglue!arena_dalloc_small (struct arena_s *, struct arena_chunk_s *, void *, struct arena_chunk_map_s *)
+72d2bc58          mozglue!double_conversion::FastDtoa (double, double_conversion::FastDtoaMode, int, class double_conversion::Vector<char>, int *, int *)
+72d2daea          mozglue!std::basic_stringbuf<char,std::char_traits<char>,std::allocator<char> >::underflow (void)
+72d38080          mozglue!_DllMainCRTStartup (void *, unsigned long, void *)
+72d2d303          mozglue!std::basic_string<char,std::char_traits<char>,std::allocator<char> >::_Inside (char *)
+72d2fe5a          mozglue!MOZ_Z_deflateBound (struct z_stream_s *, unsigned long)
+72d299d5          mozglue!double_conversion::Bignum::AddUInt64 (unsigned int64)
+72d2d476          mozglue!WebCore::DecimalPrivate::SpecialValueHandler::value (void)
+72d3314c          mozglue!MOZ_Z_gzflush (struct gzFile_s *, int)
+72d2243c          mozglue!wrap_wcsdup (wchar_t *)
+72d30039          mozglue!MOZ_Z_deflateCopy (struct z_stream_s *, struct z_stream_s *)
+72d29f40          mozglue!double_conversion::StringBuilder::AddSubstring (char *, int)
+72d2d269          mozglue!WebCore::Decimal::zero (WebCore::Decimal::Sign)
+72d24af7          mozglue!_recalloc (void *, unsigned int, unsigned int)
+72d2cae6          mozglue!double_conversion::Strtod (class double_conversion::Vector<char const >, int)
+72d2cc3f          mozglue!double_conversion::Strtof (class double_conversion::Vector<char const >, int)
+72d36e73          mozglue!bi_flush (struct internal_state *)
+72d35936          mozglue!MOZ_Z_inflateGetHeader (struct z_stream_s *, struct gz_header_s *)
+72d327b7          mozglue!gz_fetch (struct gz_state *)
+72d3037c          mozglue!fill_window (struct internal_state *)
+72d24427          mozglue!arena_purge (struct arena_s *, int)
+72d376b7          mozglue!MOZ_Z_zcfree (void *, void *)
+72d29d3f          mozglue!double_conversion::Double::IsSpecial (void)
+72d385ef          mozglue!mozilla::sse_private::`dynamic initializer for 'sse3_enabled'' (void)
+72d2fb46          mozglue!gf2_matrix_times (unsigned long *, unsigned long)
+72d25afe          mozglue!huge_palloc (unsigned int, unsigned int)
+72d36380          mozglue!send_tree (struct internal_state *, struct ct_data_s *, int)
+72d37409          mozglue!MOZ_Z__tr_flush_block (struct internal_state *, char *, unsigned long, int)
+72d37694          mozglue!MOZ_Z_zError (int)
+72d21f04          mozglue!std::map<unsigned long,char const *,std::less<unsigned long>,std::allocator<std::pair<unsigned long const ,char const *> > >::operator[] (unsigned long *)
+72d2e1e3          mozglue!WebCore::Decimal::fromString (class std::basic_string<char,std::char_traits<char>,std::allocator<char> > *)
+72d37a10          mozglue!_ftol2_sse (void)
+72d283f4          mozglue!mozilla::SHA1Sum::finish (unsigned char (*)[20])
+72d2eb45          mozglue!std::basic_string<char,std::char_traits<char>,std::allocator<char> >::_Grow (unsigned int, bool)
+72d224c1          mozglue!malloc_mutex_init (struct _RTL_CRITICAL_SECTION *)
+72d21aed          mozglue!mozilla::WindowsDllInterceptor::AddHook (char *, int, void **)
+72d31fdf          mozglue!gz_reset (struct gz_state *)
+72d2bfde          mozglue!double_conversion::FillDigits64 (unsigned int64, class double_conversion::Vector<char>, int *)
+72d35bc1          mozglue!MOZ_Z_inflateUndermine (struct z_stream_s *, int)
+72d2c749          mozglue!double_conversion::DiyFpStrtod (class double_conversion::Vector<char const >, int, double *)
+72d2713b          mozglue!mozPoisonValueInit (void)
+72d37b20          mozglue!_allshl (void)
+72d28cd1          mozglue!double_conversion::Bignum::EnsureCapacity (int)
+72d37b70          mozglue!_aulldiv (void)
+72d37b40          mozglue!_allshr (void)
+72d2ee92          mozglue!std::basic_string<char,std::char_traits<char>,std::allocator<char> >::basic_string<char,std::char_traits<char>,std::allocator<char> > (char *)
+72d2ee6e          mozglue!std::basic_string<char,std::char_traits<char>,std::allocator<char> >::basic_string<char,std::char_traits<char>,std::allocator<char> > (char *, unsigned int)
+72d2ee4b          mozglue!std::basic_string<char,std::char_traits<char>,std::allocator<char> >::basic_string<char,std::char_traits<char>,std::allocator<char> > (class std::basic_string<char,std::char_traits<char>,std::allocator<char> > *)
+72d2b50d          mozglue!double_conversion::DigitGen (class double_conversion::DiyFp, class double_conversion::DiyFp, class double_conversion::DiyFp, class double_conversion::Vector<char>, int *, int *)
+72d29e79          mozglue!double_conversion::DoubleToStringConverter::EcmaScriptConverter (void)
+72d23b68          mozglue!arena_avail_comp (struct arena_chunk_map_s *, struct arena_chunk_map_s *)
+72d2ef82          mozglue!WebCore::Decimal::fromDouble (double)
+72d2abf7          mozglue!double_conversion::DoubleToStringConverter::ToPrecision (double, int, class double_conversion::StringBuilder *)
+72d28fa5          mozglue!double_conversion::Bignum::Clamp (void)
+72d25d00          mozglue!choose_arena (void)
+72d324fb          mozglue!gz_load (struct gz_state *, unsigned char *, unsigned int, unsigned int *)
+72d35fd4          mozglue!init_block (struct internal_state *)
+72d332ce          mozglue!MOZ_Z_inflateBackInit_ (struct z_stream_s *, int, unsigned char *, char *, int)
+72d287b2          mozglue!double_conversion::GenerateShortestDigits (class double_conversion::Bignum *, class double_conversion::Bignum *, class double_conversion::Bignum *, class double_conversion::Bignum *, bool, class double_conversion::Vector<char>, int *)
+72d21a1b          mozglue!std::_Tree<std::_Tmap_traits<unsigned long,char const *,std::less<unsigned long>,std::allocator<std::pair<unsigned long const ,char const *> >,0> >::_Rrotate (struct std::_Tree_nod<std::_Tmap_traits<unsigned long,char const *,std::less<unsigned long>,std::allocator<std::pair<unsigned long const ,char const *> >,0> >::_Node *)
+72d2fb5b          mozglue!gf2_matrix_square (unsigned long *, unsigned long *)
+72d3070b          mozglue!deflate_fast (struct internal_state *, int)
+72d26d5e          mozglue!LZ4_compress (char *, char *, int)
+72d2d41b          mozglue!WebCore::DecimalPrivate::SpecialValueHandler::handle (void)
+72d2c07d          mozglue!double_conversion::RoundUp (class double_conversion::Vector<char>, int *, int *)
+72d2fd50          mozglue!MOZ_Z_deflateSetHeader (struct z_stream_s *, struct gz_header_s *)
+72d23609          mozglue!arena_run_tree_remove (struct arena_run_tree_t *, struct arena_chunk_map_s *)
+72d3772a          mozglue!__security_check_cookie (unsigned int)
+72d38603          mozglue!mozilla::sse_private::`dynamic initializer for 'ssse3_enabled'' (void)
+72d234db          mozglue!arena_run_tree_insert (struct arena_run_tree_t *, struct arena_chunk_map_s *)
+72d28741          mozglue!double_conversion::Double::LowerBoundaryIsCloser (void)
+72d2fcb4          mozglue!MOZ_Z_crc32 (unsigned long, unsigned char *, unsigned int)
+72d29bc6          mozglue!double_conversion::PowersOfTenCache::GetCachedPowerForBinaryExponentRange (int, int, class double_conversion::DiyFp *, int *)
+72d2aa37          mozglue!double_conversion::DoubleToStringConverter::ToExponential (double, int, class double_conversion::StringBuilder *)
+72d382e4          mozglue!__sse2_available_init (void)
+72d2c5b3          mozglue!double_conversion::Double::UpperBoundary (void)
+72d2db47          mozglue!std::basic_stringbuf<char,std::char_traits<char>,std::allocator<char> >::pbackfail (int)
+72d31186          mozglue!MOZ_Z_deflateSetDictionary (struct z_stream_s *, unsigned char *, unsigned int)
+72d2d74d          mozglue!WebCore::Decimal::alignOperands (class WebCore::Decimal *, class WebCore::Decimal *)
+72d2b8c0          mozglue!double_conversion::Double::NormalizedBoundaries (class double_conversion::DiyFp *, class double_conversion::DiyFp *)
+72d2b224          mozglue!double_conversion::DiyFp::Normalize (void)
+72d29b2b          mozglue!double_conversion::Bignum::AssignDecimalString (class double_conversion::Vector<char const >)
+72d25fc9          mozglue!je_memalign (unsigned int, unsigned int)
+72d266d7          mozglue!`anonymous namespace'::LZ4_compress64k_stack (char *, char *, int)
+72d2569c          mozglue!je_free (void *)
+72d215b8          mozglue!DllBlocklist_WriteNotes (void *)
+72d29c41          mozglue!double_conversion::PowersOfTenCache::GetCachedPowerForDecimalExponent (int, class double_conversion::DiyFp *, int *)
+72d2d1a3          mozglue!WebCore::Decimal::Decimal (class WebCore::Decimal *)
+72d2d1a3          mozglue!WebCore::Decimal::Decimal (class WebCore::Decimal::EncodedData *)
+72d2d178          mozglue!WebCore::Decimal::Decimal (WebCore::Decimal::Sign, int, unsigned int64)
+72d2d14a          mozglue!WebCore::Decimal::Decimal (int)
+72d2e4b7          mozglue!WebCore::Decimal::remainder (class WebCore::Decimal *)
+72d21ab4          mozglue!mozilla::internal::WindowsDllDetourPatcher::AddHook (char *, int, void **)
+72d2f8d8          mozglue!crc32_little (unsigned long, unsigned char *, unsigned int)
+72d2dd1b          mozglue!std::basic_stringbuf<char,std::char_traits<char>,std::allocator<char> >::seekpos (class std::fpos<int>, int)
+72d362b8          mozglue!scan_tree (struct internal_state *, struct ct_data_s *, int)
+72d21fc2          mozglue!`anonymous namespace'::ReentrancySentinel::~ReentrancySentinel (void)
+72d324c5          mozglue!MOZ_Z_gzclearerr (struct gzFile_s *)
+72d29f88          mozglue!double_conversion::Double::value (void)
+72d24b7c          mozglue!base_pages_alloc (unsigned int)
+72d21803          mozglue!mozilla::internal::WindowsDllDetourPatcher::CreateTrampoline (void *, int, void **)
+72d216ca          mozglue!std::_Tree_unchecked_const_iterator<std::_Tree_val<std::_Tmap_traits<unsigned long,char const *,std::less<unsigned long>,std::allocator<std::pair<unsigned long const ,char const *> >,0> >,std::_Iterator_base0>::operator++ (void)
+72d331a1          mozglue!MOZ_Z_gzsetparams (struct gzFile_s *, int, int)
+72d2bce8          mozglue!double_conversion::UInt128::Multiply (unsigned int)
+72d21b51          mozglue!std::_Tree<std::_Tmap_traits<unsigned long,char const *,std::less<unsigned long>,std::allocator<std::pair<unsigned long const ,char const *> >,0> >::_Lbound (unsigned long *)
+72d270d8          mozglue!mozilla::HashBytes (void *, unsigned int)
+72d2d114          mozglue!WebCore::Decimal::EncodedData::operator== (class WebCore::Decimal::EncodedData *)
+72d30dd8          mozglue!deflate_rle (struct internal_state *, int)
+72d24d63          mozglue!malloc_rtree_set (struct malloc_rtree_s *, unsigned int, void *)
+72d37690          mozglue!MOZ_Z_zlibCompileFlags (void)
+72d25707          mozglue!choose_arena_hard (void)
+72d34319          mozglue!MOZ_Z_inflateReset (struct z_stream_s *)
+72d382f4          mozglue!__clean_type_info_names (void)
+72d3433f          mozglue!MOZ_Z_inflateReset2 (struct z_stream_s *, int)
+72d3861a          mozglue!mozilla::sse_private::`dynamic initializer for 'sse4a_enabled'' (void)
+72d31ca5          mozglue!MOZ_Z_deflateParams (struct z_stream_s *, int, int)
+72d24af6          mozglue!jemalloc_purge_freed_pages (void)
+72d25a56          mozglue!huge_malloc (unsigned int, int)
+72d2ff25          mozglue!putShortMSB (struct internal_state *, unsigned int)
+72d219d9          mozglue!std::_Tree<std::_Tmap_traits<unsigned long,char const *,std::less<unsigned long>,std::allocator<std::pair<unsigned long const ,char const *> >,0> >::_Lrotate (struct std::_Tree_nod<std::_Tmap_traits<unsigned long,char const *,std::less<unsigned long>,std::allocator<std::pair<unsigned long const ,char const *> >,0> >::_Node *)
+72d2a52b          mozglue!double_conversion::RadixStringToIeee<3> (char *, char *, bool, bool, double, bool, char **)
+72d28cf8          mozglue!double_conversion::Bignum::Bignum (void)
+72d284b3          mozglue!double_conversion::InitialScaledStartValuesPositiveExponent (unsigned int64, int, int, bool, class double_conversion::Bignum *, class double_conversion::Bignum *, class double_conversion::Bignum *, class double_conversion::Bignum *)
+72d29242          mozglue!double_conversion::Bignum::SubtractBignum (class double_conversion::Bignum *)
+72d223f7          mozglue!wrap_strndup (char *, unsigned int)
+72d377a7          mozglue!_except_handler4 (struct _EXCEPTION_RECORD *, struct _EXCEPTION_REGISTRATION_RECORD *, struct _CONTEXT *, void *)
+72d2100c          mozglue!std::bad_alloc::`scalar deleting destructor' (void)
+72d31dc8          mozglue!MOZ_Z_gzbuffer (struct gzFile_s *, unsigned int)
+72d2ed3d          mozglue!std::basic_string<char,std::char_traits<char>,std::allocator<char> >::append (char *, unsigned int)
+72d2eca1          mozglue!std::basic_string<char,std::char_traits<char>,std::allocator<char> >::append (class std::basic_string<char,std::char_traits<char>,std::allocator<char> > *, unsigned int, unsigned int)
+72d2eba8          mozglue!std::basic_string<char,std::char_traits<char>,std::allocator<char> >::append (unsigned int, char)
+72d2f89d          mozglue!MOZ_Z_compress (unsigned char *, unsigned long *, unsigned char *, unsigned long)
+72d31eb2          mozglue!MOZ_Z_gzoffset (struct gzFile_s *)
+72d2f817          mozglue!MOZ_Z_compress2 (unsigned char *, unsigned long *, unsigned char *, unsigned long, int)
+72d29116          mozglue!double_conversion::Bignum::AssignUInt64 (unsigned int64)
+72d32c04          mozglue!MOZ_Z_gzclose_r (struct gzFile_s *)
+72d2e734          mozglue!std::basic_stringbuf<char,std::char_traits<char>,std::allocator<char> >::basic_stringbuf<char,std::char_traits<char>,std::allocator<char> > (int)
+72d2eacc          mozglue!std::basic_ostringstream<char,std::char_traits<char>,std::allocator<char> >::basic_ostringstream<char,std::char_traits<char>,std::allocator<char> > (int)
+72d21b7a          mozglue!std::_Tree_val<std::_Tmap_traits<unsigned long,char const *,std::less<unsigned long>,std::allocator<std::pair<unsigned long const ,char const *> >,0> >::_Tree_val<std::_Tmap_traits<unsigned long,char const *,std::less<unsigned long>,std::allocator<std::pair<unsigned long const ,char const *> >,0> > (struct std::less<unsigned long> *, class std::allocator<std::pair<unsigned long const ,char const *> >)
+72d3322d          mozglue!MOZ_Z_gzclose_w (struct gzFile_s *)
+72d28fdd          mozglue!double_conversion::Bignum::Zero (void)
+72d31d83          mozglue!MOZ_Z_deflateInit_ (struct z_stream_s *, int, char *, int)
+72d2d3c7          mozglue!WebCore::Decimal::`default constructor closure' (void)
+72d3826e          mozglue!`eh vector destructor iterator' (void *, unsigned int, int, <function> *)
+72d30232          mozglue!longest_match (struct internal_state *, unsigned int)
+72d21000          mozglue!std::bad_alloc::~bad_alloc (void)
+72d29f2f          mozglue!double_conversion::SignedZero (bool)
+72d37a2c          mozglue!_ftol2_sse_excpt (void)
+72d3288e          mozglue!MOZ_Z_gzread (struct gzFile_s *, void *, unsigned int)
+72d28998          mozglue!double_conversion::BignumDtoa (double, double_conversion::BignumDtoaMode, int, class double_conversion::Vector<char>, int *, int *)
+72d2d29d          mozglue!std::basic_stringbuf<char,std::char_traits<char>,std::allocator<char> >::_Tidy (void)
+72d37ac0          mozglue!_aullshr (void)
+72d2de28          mozglue!std::basic_stringbuf<char,std::char_traits<char>,std::allocator<char> >::`scalar deleting destructor' (void)
+72d2bf71          mozglue!double_conversion::FillDigits64FixedLength (unsigned int64, int, class double_conversion::Vector<char>, int *)
+72d2f173          mozglue!moz_decimal_utils::StringBuilder::appendNumber (int)
+72d29db2          mozglue!double_conversion::Double::Sign (void)
+72d21f53          mozglue!`anonymous namespace'::ReentrancySentinel::ReentrancySentinel (char *)
+72d32d3b          mozglue!gz_comp (struct gz_state *, int)
+72d2fda9          mozglue!MOZ_Z_deflatePrime (struct z_stream_s *, int, int)
+72d2d1f0          mozglue!WebCore::Decimal::abs (void)
+72d246d6          mozglue!isalloc (void *)
+72d2159d          mozglue!DllBlocklist_SetInXPCOMLoadOnMainThread (bool)
+72d290ef          mozglue!double_conversion::Bignum::AssignUInt16 (unsigned short)
+72d2709b          mozglue!mozilla::IsFloat32Representable (double)
+72d2de44          mozglue!std::basic_string<char,std::char_traits<char>,std::allocator<char> >::_Chassign (unsigned int, unsigned int, char)
+72d2171b          mozglue!std::_Tree_unchecked_const_iterator<std::_Tree_val<std::_Tmap_traits<unsigned long,char const *,std::less<unsigned long>,std::allocator<std::pair<unsigned long const ,char const *> >,0> >,std::_Iterator_base0>::operator-- (void)
+72d28e89          mozglue!double_conversion::Bignum::PlusCompare (class double_conversion::Bignum *, class double_conversion::Bignum *, class double_conversion::Bignum *)
+72d2d497          mozglue!WebCore::DecimalPrivate::UInt128::multiply (unsigned int64, unsigned int64)
+72d292ec          mozglue!double_conversion::Bignum::ShiftLeft (int)
+72d2fcce          mozglue!MOZ_Z_deflateResetKeep (struct z_stream_s *)
+72d28488          mozglue!double_conversion::Bignum::Less (class double_conversion::Bignum *, class double_conversion::Bignum *)
+72d343b4          mozglue!MOZ_Z_inflateInit2_ (struct z_stream_s *, int, char *, int)
+72d222e2          mozglue!`anonymous namespace'::ReentrancySentinel::InitializeStatics (void)
+72d2fd73          mozglue!MOZ_Z_deflatePending (struct z_stream_s *, unsigned int *, int *)
+72d256d9          mozglue!chunk_alloc (unsigned int, int, int)
+72d24211          mozglue!arena_run_split (struct arena_s *, struct arena_run_s *, unsigned int, int, int)
+72d2a1d9          mozglue!double_conversion::DoubleToStringConverter::DoubleToAscii (double, double_conversion::DoubleToStringConverter::DtoaMode, int, char *, int, bool *, int *, int *)
+72d25046          mozglue!arena_run_trim_tail (struct arena_s *, struct arena_chunk_s *, struct arena_run_s *, unsigned int, unsigned int, int)
+72d286d1          mozglue!double_conversion::BitCast<unsigned __int64,double> (double *)
+72d29a2c          mozglue!double_conversion::Bignum::DivideModuloIntBignum (class double_conversion::Bignum *)
+72d22471          mozglue!wrtmessage (char *, char *, char *, char *)
+72d2c467          mozglue!double_conversion::AdjustmentPowerOfTen (int)
+72d21622          mozglue!`anonymous namespace'::RVAMap<_IMAGE_DOS_HEADER>::RVAMap<_IMAGE_DOS_HEADER> (void *, unsigned long)
+72d2a0c4          mozglue!double_conversion::DoubleToStringConverter::CreateDecimalRepresentation (char *, int, int, int, class double_conversion::StringBuilder *)
+72d285e6          mozglue!double_conversion::InitialScaledStartValues (unsigned int64, int, bool, int, bool, class double_conversion::Bignum *, class double_conversion::Bignum *, class double_conversion::Bignum *, class double_conversion::Bignum *)
+72d2fe1f          mozglue!MOZ_Z_deflateTune (struct z_stream_s *, int, int, int, int)
+72d2cfad          mozglue!WebCore::DecimalPrivate::countDigits (unsigned int64)
+72d2706d          mozglue!mozilla::Compression::LZ4::decompress (char *, unsigned int, char *, unsigned int, unsigned int *)
+72d27051          mozglue!mozilla::Compression::LZ4::decompress (char *, char *, unsigned int)
+72d2ea79          mozglue!WebCore::Decimal::operator>= (class WebCore::Decimal *)
+72d25f87          mozglue!je_malloc (unsigned int)
+72d2d9f2          mozglue!WebCore::Decimal::round (void)
+72d2e936          mozglue!WebCore::Decimal::operator== (class WebCore::Decimal *)
+72d2bf15          mozglue!double_conversion::FillDigits32 (unsigned int, class double_conversion::Vector<char>, int *)
+72d2857e          mozglue!double_conversion::InitialScaledStartValuesNegativeExponentNegativePower (unsigned int64, int, int, bool, class double_conversion::Bignum *, class double_conversion::Bignum *, class double_conversion::Bignum *, class double_conversion::Bignum *)
+72d2e9f8          mozglue!WebCore::Decimal::operator<= (class WebCore::Decimal *)
+72d2f800          mozglue!MOZ_Z_adler32_combine (unsigned long, unsigned long, long)
+72d21eb4          mozglue!std::_Tree_val<std::_Tmap_traits<unsigned long,char const *,std::less<unsigned long>,std::allocator<std::pair<unsigned long const ,char const *> >,0> >::_Buynode<std::pair<unsigned long const ,char const *> > (struct std::pair<unsigned long const ,char const *> *)
+72d2900b          mozglue!double_conversion::Bignum::Align (class double_conversion::Bignum *)
+72d24c8d          mozglue!base_node_alloc (void)
+72d31ed3          mozglue!MOZ_Z_gzeof (struct gzFile_s *)
+72d31f3d          mozglue!MOZ_Z_gz_error (struct gz_state *, int, char *)
+72d2d92d          mozglue!WebCore::Decimal::floor (void)
+72d24be6          mozglue!base_alloc (unsigned int)
+72d31310          mozglue!MOZ_Z_deflate (struct z_stream_s *, int)
+72d31040          mozglue!deflate_huff (struct internal_state *, int)
+72d2c50c          mozglue!double_conversion::CompareBufferWithDiyFp (class double_conversion::Vector<char const >, int, class double_conversion::DiyFp)
+72d32ec7          mozglue!MOZ_Z_gzwrite (struct gzFile_s *, void *, unsigned int)
+72d305a1          mozglue!deflate_stored (struct internal_state *, int)
+72d37d12          mozglue!pre_c_init (void)
+72d2a31d          mozglue!double_conversion::RadixStringToIeee<4> (char *, char *, bool, bool, double, bool, char **)
+72d384b4          mozglue!__security_init_cookie (void)
+72d35a99          mozglue!MOZ_Z_inflateCopy (struct z_stream_s *, struct z_stream_s *)
+72d376d6          mozglue!operator new[] (unsigned int)
+72d2ce83          mozglue!WebCore::DecimalPrivate::UInt128::operator/= (unsigned int)
+72d32e36          mozglue!gz_zero (struct gz_state *, int64)
+72d31e5e          mozglue!MOZ_Z_gzoffset64 (struct gzFile_s *)
+72d2bef3          mozglue!double_conversion::FillDigits32FixedLength (unsigned int, int, class double_conversion::Vector<char>, int *)
+72d21702          mozglue!std::bad_alloc::bad_alloc (class std::bad_alloc *)
+72d33057          mozglue!MOZ_Z_gzputs (struct gzFile_s *, char *)
+72d32fc2          mozglue!MOZ_Z_gzputc (struct gzFile_s *, int)
+72d29ed9          mozglue!double_conversion::ConsumeSubString (char **, char *, char *)
+72d3336c          mozglue!MOZ_Z_inflateBack (struct z_stream_s *, <function> *, void *, <function> *, void *)
+72d2253e          mozglue!extent_tree_ad_search (struct extent_tree_t *, struct extent_node_s *)
+72d375ff          mozglue!MOZ_Z_uncompress (unsigned char *, unsigned long *, unsigned char *, unsigned long)
+72d32aec          mozglue!MOZ_Z_gzgets (struct gzFile_s *, char *, int)
+72d26108          mozglue!`anonymous namespace'::LZ4_compress_stack (char *, char *, int)
+72d2b41d          mozglue!double_conversion::RoundWeedCounted (class double_conversion::Vector<char>, int, unsigned int64, unsigned int64, unsigned int64, int *)
+72d32a10          mozglue!MOZ_Z_gzgetc_ (struct gzFile_s *)
+72d3865f          mozglue!`anonymous namespace'::`dynamic atexit destructor for 'NtDllIntercept'' (void)
+72d2e55d          mozglue!std::basic_stringbuf<char,std::char_traits<char>,std::allocator<char> >::overflow (int)
+72d38210          mozglue!__ArrayUnwind (void *, unsigned int, int, <function> *)
+72d22cd8          mozglue!malloc_rtree_get (struct malloc_rtree_s *, unsigned int)
+72d213a0          mozglue!`anonymous namespace'::DllBlockSet::Add (char *, unsigned int64)
+72d29172          mozglue!double_conversion::Bignum::AddBignum (class double_conversion::Bignum *)
+72d2fc9c          mozglue!MOZ_Z_crc32_combine (unsigned long, unsigned long, long)
+72d37a19          mozglue!_ftol2_pentium4 (void)
+72d380a3          mozglue!__report_gsfailure (void)
+72d2849f          mozglue!double_conversion::Double::IsDenormal (void)
+72d271fa          mozglue!mozilla::SHA1Sum::SHA1Sum (void)
+72d37880          mozglue!_onexit (<function> *)
+72d29d58          mozglue!double_conversion::Double::IsNan (void)
+72d2b6f9          mozglue!double_conversion::DigitGenCounted (class double_conversion::DiyFp, int, class double_conversion::Vector<char>, int *, int *)
+72d22d48          mozglue!chunk_alloc_mmap (unsigned int, int)
+72d2e97c          mozglue!WebCore::Decimal::operator!= (class WebCore::Decimal *)
+72d2dad3          mozglue!std::basic_stringbuf<char,std::char_traits<char>,std::allocator<char> >::~basic_stringbuf<char,std::char_traits<char>,std::allocator<char> > (void)
+72d2d238          mozglue!WebCore::Decimal::nan (void)
+72d2d3cf          mozglue!std::isinf (double)
+72d2871b          mozglue!double_conversion::Double::Significand (void)
+72d2eebf          mozglue!std::basic_string<char,std::char_traits<char>,std::allocator<char> >::assign (class std::basic_string<char,std::char_traits<char>,std::allocator<char> > *)
+72d2edd7          mozglue!std::basic_string<char,std::char_traits<char>,std::allocator<char> >::assign (char *, unsigned int)
+72d2ec07          mozglue!std::basic_string<char,std::char_traits<char>,std::allocator<char> >::assign (class std::basic_string<char,std::char_traits<char>,std::allocator<char> > *, unsigned int, unsigned int)
+72d28dda          mozglue!double_conversion::Bignum::BigitAt (int)
+72d2d364          mozglue!std::_Allocate<char> (unsigned int, char *)
+72d2df1d          mozglue!WebCore::Decimal::operator/= (class WebCore::Decimal *)
+72d385c1          mozglue!mozilla::sse_private::`dynamic initializer for 'sse_enabled'' (void)
+72d2960f          mozglue!double_conversion::Bignum::Square (void)
+72d21675          mozglue!`anonymous namespace'::RVAMap<_IMAGE_NT_HEADERS>::RVAMap<_IMAGE_NT_HEADERS> (void *, unsigned long)
+72d2865d          mozglue!double_conversion::FixupMultiply10 (int, bool, int *, class double_conversion::Bignum *, class double_conversion::Bignum *, class double_conversion::Bignum *, class double_conversion::Bignum *)
+72d22c83          mozglue!pages_map (void *, unsigned int, int)
+72d25d16          mozglue!ipalloc (unsigned int, unsigned int)
+72d2fb81          mozglue!crc32_combine_ (unsigned long, unsigned long, int64)
+72d26083          mozglue!je_realloc (void *, unsigned int)
+72d2ca54          mozglue!double_conversion::TrimAndCut (class double_conversion::Vector<char const >, int, char *, int, class double_conversion::Vector<char const > *, int *)
+72d37940          mozglue!_aulldvrm (void)
+72d2e17c          mozglue!WebCore::Decimal::compareTo (class WebCore::Decimal *)
+72d2e90d          mozglue!WebCore::Decimal::operator-= (class WebCore::Decimal *)
+72d2b27c          mozglue!double_conversion::BiggestPowerTen (unsigned int, int, unsigned int *, int *)
+72d2d3ac          mozglue!WebCore::Decimal::EncodedData::isFinite (void)
+72d21932          mozglue!`anonymous namespace'::CheckASLR (wchar_t *)
+72d2c448          mozglue!double_conversion::Double::SignificandSizeForOrderOfMagnitude (int)
+72d2f77b          mozglue!adler32_combine_ (unsigned long, unsigned long, int64)
+72d35822          mozglue!MOZ_Z_inflateEnd (struct z_stream_s *)
+72d2e8e4          mozglue!WebCore::Decimal::operator+= (class WebCore::Decimal *)
+72d29fe5          mozglue!double_conversion::DoubleToStringConverter::CreateExponentialRepresentation (char *, int, int, class double_conversion::StringBuilder *)
+72d252bb          mozglue!arenas_extend (unsigned int)
+72d37247          mozglue!MOZ_Z__tr_stored_block (struct internal_state *, char *, unsigned long, int)
+72d28763          mozglue!double_conversion::Single::Exponent (void)
+72d2be38          mozglue!double_conversion::UInt128::DivModPowerOf2 (int)
+72d2e532          mozglue!std::basic_ostringstream<char,std::char_traits<char>,std::allocator<char> >::~basic_ostringstream<char,std::char_traits<char>,std::allocator<char> > (void)
+72d29fcb          mozglue!double_conversion::Double::NaN (void)
+72d383e0          mozglue!_IsNonwritableInCurrentImage (unsigned char *)
+72d2def4          mozglue!WebCore::Decimal::operator*= (class WebCore::Decimal *)
+72d3768a          mozglue!MOZ_Z_zlibVersion (void)
+72d2c5e4          mozglue!double_conversion::ReadUint64 (class double_conversion::Vector<char const >, int *)
+72d28d94          mozglue!double_conversion::ReadUInt64 (class double_conversion::Vector<char const >, int, int)
+72d2c0ce          mozglue!double_conversion::FillFractionals (unsigned int64, int, int, class double_conversion::Vector<char>, int *, int *)
+72d35c21          mozglue!MOZ_Z_inflate_table (codetype, unsigned short *, unsigned int, struct code **, unsigned int *, unsigned short *)
+72d26d8e          mozglue!`anonymous namespace'::LZ4_decompress_generic (char *, char *, int, int, int, int, int, int)
+72d3282d          mozglue!gz_skip (struct gz_state *, int64)
+72d3200f          mozglue!gz_open (void *, int, char *)
+72d376ca          mozglue!GetFileVersionInfoW (<no parameter info>)
+72d37718          mozglue!std::exception::what (<no parameter info>)
+72d39170          mozglue!_imp___snprintf = <no type information>
+72d39f08          mozglue!std::basic_ostringstream<char,std::char_traits<char>,std::allocator<char> >::`vbtable' = <no type information>
+72d384ae          mozglue!__CppXcptFilter (<no parameter info>)
+72d391e0          mozglue!_imp__stricmp = <no type information>
+72d3e10c          mozglue!type_info::`RTTI Complete Object Locator' = <no type information>
+72d376f4          mozglue!std::basic_streambuf<char,std::char_traits<char> >::uflow (<no parameter info>)
+72d391a4          mozglue!_imp___initterm_e = <no type information>
+72d3900c          mozglue!_imp__QueryPerformanceCounter = <no type information>
+72d390fc          mozglue!_imp_?showmanyc?$basic_streambufDU?$char_traitsDstdstdMAE_JXZ = <no type information>
+72d39098          mozglue!_imp__Sleep = <no type information>
+72d3903c          mozglue!_imp__IsDebuggerPresent = <no type information>
+72d39204          mozglue!VERSION_NULL_THUNK_DATA = <no type information>
+72d391bc          mozglue!_imp____clean_type_info_names_internal = <no type information>
+72d39044          mozglue!_imp__SearchPathW = <no type information>
+72d39124          mozglue!_imp___dup = <no type information>
+72d391e4          mozglue!_imp__open = <no type information>
+72d39164          mozglue!_imp__ceil = <no type information>
+72d376fa          mozglue!std::basic_streambuf<char,std::char_traits<char> >::xsgetn (<no parameter info>)
+72d390cc          mozglue!_imp_?_Pninc?$basic_streambufDU?$char_traitsDstdstdIAEPADXZ = <no type information>
+72d391dc          mozglue!_imp___close = <no type information>
+72d391e4          mozglue!_imp___open = <no type information>
+72d3906c          mozglue!_imp__TerminateProcess = <no type information>
+72d37740          mozglue!strcmp (<no parameter info>)
+72d39158          mozglue!_imp___errno = <no type information>
+72d3901c          mozglue!_imp__LoadLibraryExA = <no type information>
+72d37706          mozglue!std::basic_streambuf<char,std::char_traits<char> >::setbuf (<no parameter info>)
+72d412c4          mozglue!std::exception `RTTI Type Descriptor' = <no type information>
+72d3e120          mozglue!type_info::`RTTI Class Hierarchy Descriptor' = <no type information>
+72d3e130          mozglue!type_info::`RTTI Base Class Array' = <no type information>
+72d39000          mozglue!_imp__GetSystemTimeAsFileTime = <no type information>
+72d390b4          mozglue!_imp_?xsputn?$basic_streambufDU?$char_traitsDstdstdMAE_JPBD_JZ = <no type information>
+72d391c4          mozglue!_imp__wcslen = <no type information>
+72d390e0          mozglue!_imp_??0?$basic_ostreamDU?$char_traitsDstdstdQAEPAV?$basic_streambufDU?$char_traitsDstd = <no type information>
+72d39054          mozglue!_imp__UnmapViewOfFile = <no type information>
+72d3855c          mozglue!type_info::_type_info_dtor_internal_method (<no parameter info>)
+72d39008          mozglue!_imp__GetTickCount = <no type information>
+72d39da0          mozglue!_realcc63e9e4e4c2f344 = <no type information>
+72d382d2          mozglue!_unlock (<no parameter info>)
+72d39088          mozglue!_imp__DisableThreadLibraryCalls = <no type information>
+72d39140          mozglue!_imp__memcpy = <no type information>
+72d390a4          mozglue!_imp__SetUnhandledExceptionFilter = <no type information>
+72d3e37c          mozglue!_IMPORT_DESCRIPTOR_VERSION = <no type information>
+72d391a8          mozglue!_imp___amsg_exit = <no type information>
+72d39004          mozglue!_imp__GetCurrentProcessId = <no type information>
+72d37830          mozglue!__CxxFrameHandler3 (<no parameter info>)
+72d384a2          mozglue!_initterm_e (<no parameter info>)
+72d38556          mozglue!terminate (<no parameter info>)
+72d39080          mozglue!_imp__TlsSetValue = <no type information>
+72d39174          mozglue!_imp___wopen = <no type information>
+72d39da8          mozglue!_real = <no type information>
+72d391cc          mozglue!_imp__memset = <no type information>
+72d39114          mozglue!_imp_?xsgetn?$basic_streambufDU?$char_traitsDstdstdMAE_JPAD_JZ = <no type information>
+72d3910c          mozglue!_imp_?_Xout_of_rangestdYAXPBDZ = <no type information>
+72d39064          mozglue!_imp__InitializeCriticalSection = <no type information>
+72d391a0          mozglue!_imp___initterm = <no type information>
+72d38562          mozglue!__clean_type_info_names_internal (<no parameter info>)
+72d391b8          mozglue!_imp_?_type_info_dtor_internal_methodtype_infoQAEXXZ = <no type information>
+72d377cc          mozglue!operator delete[] (<no parameter info>)
+72d39018          mozglue!_imp__VirtualProtectEx = <no type information>
+72d390b0          mozglue!KERNEL32_NULL_THUNK_DATA = <no type information>
+72d37700          mozglue!std::basic_streambuf<char,std::char_traits<char> >::xsputn (<no parameter info>)
+72d3916c          mozglue!_imp___lseeki64 = <no type information>
+72d39034          mozglue!_imp__GetProcAddress = <no type information>
+72d39068          mozglue!_imp__GetModuleHandleA = <no type information>
+72d39130          mozglue!_imp__strlen = <no type information>
+72d391ac          mozglue!_imp____CppXcptFilter = <no type information>
+72d397f0          mozglue!_real = <no type information>
+72d3905c          mozglue!_imp__CreateFileMappingW = <no type information>
+72d382de          mozglue!_lock (<no parameter info>)
+72d39184          mozglue!_imp___except_handler4_common = <no type information>
+72d390d4          mozglue!_imp_?_Ios_base_dtorios_basestdCAXPAV12Z = <no type information>
+72d39188          mozglue!_imp___unlock = <no type information>
+72d391f8          mozglue!_imp__GetFileVersionInfoSizeW = <no type information>
+72d3e090          mozglue!_imp__moz_abort = <no type information>
+72d39120          mozglue!_imp___fdopen = <no type information>
+72d376e2          mozglue!std::basic_streambuf<char,std::char_traits<char> >::_Lock (<no parameter info>)
+72d39050          mozglue!_imp__GetSystemInfo = <no type information>
+72d39ec8          mozglue!std::basic_stringbuf<char,std::char_traits<char>,std::allocator<char> >::`vftable' = <no type information>
+72d39074          mozglue!_imp__InitializeCriticalSectionAndSpinCount = <no type information>
+72d3902c          mozglue!_imp__EnterCriticalSection = <no type information>
+72d397f8          mozglue!_real = <no type information>
+72d38550          mozglue!_crt_debugger_hook (<no parameter info>)
+72d39020          mozglue!_imp__VirtualAllocEx = <no type information>
+72d39200          mozglue!_imp__VerQueryValueW = <no type information>
+72d391b0          mozglue!_imp___crt_debugger_hook = <no type information>
+72d39138          mozglue!_imp___CxxThrowException = <no type information>
+72d39168          mozglue!_imp__memmove = <no type information>
+72d39010          mozglue!_imp__FlushInstructionCache = <no type information>
+72d391f0          mozglue!_imp___ltoa = <no type information>
+72d39e98          mozglue!_real = <no type information>
+72d390e4          mozglue!_imp_??6?$basic_ostreamDU?$char_traitsDstdstdQAEAAV01_JZ = <no type information>
+72d390ec          mozglue!_imp_??6?$basic_ostreamDU?$char_traitsDstdstdQAEAAV01_KZ = <no type information>
+72d3773a          mozglue!operator new (<no parameter info>)
+72d39178          mozglue!_imp__wcstombs = <no type information>
+72d3770c          mozglue!std::basic_streambuf<char,std::char_traits<char> >::sync (<no parameter info>)
+72d3913c          mozglue!_imp_??0exceptionstdQAEABV01Z = <no type information>
+72d39014          mozglue!_imp__GetCurrentProcess = <no type information>
+72d39d84          mozglue!double_conversion::DoubleToStringConverter::kBase10MaximalLength = <no type information>
+72d39134          mozglue!_imp_??_VYAXPAXZ = <no type information>
+72d391dc          mozglue!_imp__close = <no type information>
+72d391d4          mozglue!_imp_??1exceptionstdUAEXZ = <no type information>
+72d39190          mozglue!_imp___lock = <no type information>
+72d376d0          mozglue!GetFileVersionInfoSizeW (<no parameter info>)
+72d39118          mozglue!MSVCP100_NULL_THUNK_DATA = <no type information>
+72d391ec          mozglue!_imp_??0exceptionstdQAEABQBDZ = <no type information>
+72d391f0          mozglue!_imp__ltoa = <no type information>
+72d39160          mozglue!_imp__free = <no type information>
+72d391e8          mozglue!_imp__read = <no type information>
+72d39070          mozglue!_imp__GetEnvironmentVariableA = <no type information>
+72d3907c          mozglue!_imp__VirtualAlloc = <no type information>
+72d415b8          mozglue!`mozilla::IsWindowsVersionOrLater'::`2'::minVersion = <no type information>
+72d3e3b8          mozglue!_IMPORT_DESCRIPTOR_MSVCR100 = <no type information>
+72d3e034          mozglue!type_info::`vftable' = <no type information>
+72d3e3a4          mozglue!_IMPORT_DESCRIPTOR_MSVCP100 = <no type information>
+72d39150          mozglue!_imp__vsnprintf = <no type information>
+72d39148          mozglue!_imp__strncpy = <no type information>
+72d3771e          mozglue!operator delete (<no parameter info>)
+72d3e1ac          mozglue!_CTA2?AVbad_allocstd = <no type information>
+72d376e8          mozglue!std::basic_streambuf<char,std::char_traits<char> >::_Unlock (<no parameter info>)
+72d391b4          mozglue!_imp_?terminateYAXXZ = <no type information>
+72d37724          mozglue!memset (<no parameter info>)
+72d412a8          mozglue!std::bad_alloc `RTTI Type Descriptor' = <no type information>
+72d3855c          mozglue!type_info::~type_info (<no parameter info>)
+72d3908c          mozglue!_imp__TlsGetValue = <no type information>
+72d382d8          mozglue!__dllonexit (<no parameter info>)
+72d390ac          mozglue!_imp__EncodePointer = <no type information>
+72d3904c          mozglue!_imp__MapViewOfFile = <no type information>
+72d39d98          mozglue!_real = <no type information>
+72d3914c          mozglue!_imp__write = <no type information>
+72d39028          mozglue!_imp__VerSetConditionMask = <no type information>
+72d37746          mozglue!strlen (<no parameter info>)
+72d3911c          mozglue!_imp__vfprintf = <no type information>
+72d37712          mozglue!std::basic_streambuf<char,std::char_traits<char> >::imbue (<no parameter info>)
+72d39150          mozglue!_imp___vsnprintf = <no type information>
+72d39078          mozglue!_imp__VirtualFree = <no type information>
+72d391f4          mozglue!MSVCR100_NULL_THUNK_DATA = <no type information>
+72d3820a          mozglue!_except_handler4_common (<no parameter info>)
+72d39104          mozglue!_imp_?_Lock?$basic_streambufDU?$char_traitsDstdstdUAEXXZ = <no type information>
+72d3849c          mozglue!_initterm (<no parameter info>)
+72d41340          mozglue!type_info `RTTI Type Descriptor' = <no type information>
+72d39090          mozglue!_imp__DecodePointer = <no type information>
+72d390dc          mozglue!_imp_??_7?$basic_iosDU?$char_traitsDstdstd = <no type information>
+72d390a8          mozglue!_imp__IsProcessorFeaturePresent = <no type information>
+72d39144          mozglue!_imp____CxxFrameHandler3 = <no type information>
+72d391c0          mozglue!_imp__fclose = <no type information>
+72d3e138          mozglue!type_info::`RTTI Base Class Descriptor at (0,-1,0,64)' = <no type information>
+72d390a0          mozglue!_imp__UnhandledExceptionFilter = <no type information>
+72d3e19c          mozglue!_TI2?AVbad_allocstd = <no type information>
+72d39458          mozglue!std::bad_alloc::`vftable' = <no type information>
+72d3914c          mozglue!_imp___write = <no type information>
+72d390d8          mozglue!_imp_??_7ios_basestd = <no type information>
+72d39180          mozglue!_imp__memchr = <no type information>
+72d3909c          mozglue!_imp__InterlockedCompareExchange = <no type information>
+72d3915c          mozglue!_imp__malloc = <no type information>
+72d39110          mozglue!_imp_?_Xlength_errorstdYAXPBDZ = <no type information>
+72d376ee          mozglue!std::basic_streambuf<char,std::char_traits<char> >::showmanyc (<no parameter info>)
+72d391c8          mozglue!_imp__wcsncpy = <no type information>
+72d390c8          mozglue!_imp_??_7?$basic_ostreamDU?$char_traitsDstdstd = <no type information>
+72d390b8          mozglue!_imp_?setbuf?$basic_streambufDU?$char_traitsDstdstdMAEPAV12PAD_JZ = <no type information>
+72d391d0          mozglue!_imp_??3YAXPAXZ = <no type information>
+72d3782a          mozglue!memcpy (<no parameter info>)
+72d376c4          mozglue!VerQueryValueW (<no parameter info>)
+72d390c0          mozglue!_imp_?imbue?$basic_streambufDU?$char_traitsDstdstdMAEXABVlocale = <no type information>
+72d39058          mozglue!_imp__CloseHandle = <no type information>
+72d39040          mozglue!_imp__WriteFile = <no type information>
+72d3e390          mozglue!_IMPORT_DESCRIPTOR_KERNEL32 = <no type information>
+72d390bc          mozglue!_imp_?sync?$basic_streambufDU?$char_traitsDstdstdMAEHXZ = <no type information>
+72d37824          mozglue!std::exception::exception (<no parameter info>)
+72d391e8          mozglue!_imp___read = <no type information>
+72d377d2          mozglue!_CxxThrowException (<no parameter info>)
+72d39154          mozglue!_imp__realloc = <no type information>
+72d391d8          mozglue!_imp_?whatexceptionstdUBEPBDXZ = <no type information>
+72d391fc          mozglue!_imp__GetFileVersionInfoW = <no type information>
+72d412a0          mozglue!`mozilla::IsWindowsVersionOrLater'::`2'::maxVersion = <no type information>
+72d3e1b8          mozglue!_CT??_R0?AVbad_allocstd = <no type information>
+72d3e1d4          mozglue!_CT??_R0?AVexceptionstd = <no type information>
+72d39100          mozglue!_imp_?_Unlock?$basic_streambufDU?$char_traitsDstdstdUAEXXZ = <no type information>
+72d390f8          mozglue!_imp_?uflow?$basic_streambufDU?$char_traitsDstdstdMAEHXZ = <no type information>
+72d391e0          mozglue!_imp___stricmp = <no type information>
+72d39030          mozglue!_imp__LeaveCriticalSection = <no type information>
+72d390e8          mozglue!_imp_?setprecisionstdYA?AU?$_Smanip_J = <no type information>
+72d39048          mozglue!_imp__GetCurrentThreadId = <no type information>
+72d390d0          mozglue!_imp_??0?$basic_streambufDU?$char_traitsDstdstdIAEXZ = <no type information>
+72d39108          mozglue!_imp_??1?$basic_streambufDU?$char_traitsDstdstdUAEXZ = <no type information>
+72d384a8          mozglue!_amsg_exit (<no parameter info>)
+72d39024          mozglue!_imp__VerifyVersionInfoA = <no type information>
+72d390c4          mozglue!_imp_?_BADOFFstd = <no type information>
+72d39f04          mozglue!std::basic_ostringstream<char,std::char_traits<char>,std::allocator<char> >::`vftable' = <no type information>
+72d3917c          mozglue!_imp__strerror = <no type information>
+72d39038          mozglue!_imp__OutputDebugStringA = <no type information>
+72d39084          mozglue!_imp__TlsAlloc = <no type information>
+72d39094          mozglue!_imp__InterlockedExchange = <no type information>
+72d3918c          mozglue!_imp____dllonexit = <no type information>
+72d39128          mozglue!_imp_??2YAPAXIZ = <no type information>
+72d3919c          mozglue!_imp___encoded_null = <no type information>
+72d39060          mozglue!_imp__CreateFileW = <no type information>
+72d3e3cc          mozglue!_NULL_IMPORT_DESCRIPTOR = <no type information>
+72d39198          mozglue!_imp___malloc_crt = <no type information>
+72d3912c          mozglue!_imp__strcmp = <no type information>
+
+
+
+0:000> dt arenas
+mozglue!arenas
+0x00620000 
+ -> 0x00620040 
+   +0x000 lock             : _RTL_CRITICAL_SECTION
+   +0x018 stats            : arena_stats_s
+   +0x080 chunks_dirty     : arena_chunk_tree_t
+   +0x0a0 spare            : 0x4b000000 arena_chunk_s
+   +0x0a4 ndirty           : 0x345
+   +0x0a8 runs_avail       : arena_avail_tree_t
+   +0x0b8 bins             : [1] arena_bin_s
+0:000> dt arena_chunk_s 0x4b000000 
+mozglue!arena_chunk_s
+   +0x000 arena            : 0x00620040 arena_s
+   +0x004 link_dirty       : <unnamed-tag>
+   +0x00c ndirty           : 0
+   +0x010 map              : [1] arena_chunk_map_s
+0:000> dt arena_stats_s 0x00620000 + 0x018 
+mozglue!arena_stats_s
+   +0x000 mapped           : 0
+   +0x008 npurge           : 0
+   +0x010 nmadvise         : 0
+   +0x018 purged           : 0
+   +0x020 ndecommit        : 0
+   +0x028 ncommit          : 0xffffffff`000f7bd8
+   +0x030 decommitted      : 0
+   +0x038 committed        : 0x3a0
+   +0x03c allocated_small  : 0x1388
+   +0x040 nmalloc_small    : 0x3d300000
+   +0x048 ndalloc_small    : 0x15847
+   +0x050 allocated_large  : 0xbbc862
+   +0x058 nmalloc_large    : 0x2cdb5ee
+   +0x060 ndalloc_large    : 0xbbd0c0
+0:000> dt arena_chunk_tree_t 0x00620000 +0x080 
+mozglue!arena_chunk_tree_t
+   +0x000 rbt_root         : 0x00d295d8 arena_chunk_s
+   +0x004 rbt_nil          : arena_chunk_s
+0:000> dt arena_bin_s 0x00620000+0xb8
+mozglue!arena_bin_s
+   +0x000 runcur           : 0x02dbb9d0 arena_run_s
+   +0x004 runs             : arena_run_tree_t
+   +0x014 reg_size         : 0x6200c4
+   +0x018 run_size         : 0
+   +0x01c nregs            : 0
+   +0x020 regs_mask_nelms  : 0
+   +0x024 reg0_offset      : 0
+   +0x028 stats            : malloc_bin_stats_s
+0:000> dt arena_chunk_s 0x4b000000 +0x0a0
+mozglue!arena_chunk_s
+   +0x000 arena            : (null) 
+   +0x004 link_dirty       : <unnamed-tag>
+   +0x00c ndirty           : 0
+   +0x010 map              : [1] arena_chunk_map_s
+0:000> dt arena_chunk_s 0x00620000 +0x0a0
+mozglue!arena_chunk_s
+   +0x000 arena            : 0x881e44ee arena_s
+   +0x004 link_dirty       : <unnamed-tag>
+   +0x00c ndirty           : 0
+   +0x010 map              : [1] arena_chunk_map_s
+0:000> dd 0x881e44ee 
+881e44ee  e4d50000 00005c89 55200000 00000dd3
+881e44fe  14d90000 00005c8a 7ae00000 00000dcf
+881e450e  2e6a0000 00005c8a 81000000 000028f7
+881e451e  00000000 00000000 f1a00000 000025e5
+881e452e  7d6a0000 00005c8a 74900000 000025eb
+881e453e  8c750000 00005c8a 56100000 00000dd3
+881e454e  acac0000 00005c8a a9600000 0000095c
+881e455e  00000000 00000000 00000000 00000000
+0:000> dt arena_s 0x881e44ee 
+mozglue!arena_s
+   +0x000 lock             : _RTL_CRITICAL_SECTION
+   +0x018 stats            : arena_stats_s
+   +0x080 chunks_dirty     : arena_chunk_tree_t
+   +0x0a0 spare            : (null) 
+   +0x0a4 ndirty           : 0
+   +0x0a8 runs_avail       : arena_avail_tree_t
+   +0x0b8 bins             : [1] arena_bin_s
